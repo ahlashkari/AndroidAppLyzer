@@ -1,6 +1,6 @@
 ## Static Android App Analyzer and Classifier
 
-This project focuses on classify android samples using static analysis. The first version of this package covers the data collection and static feature extraction. The second version will develop a classification model using extracted static features.
+This research focuses on classifying android samples using static analysis. The first version of this package covers the data collection and static feature extraction. The second version will develop a classification model using extracted static features.
 
 ## Version 1: 
 
