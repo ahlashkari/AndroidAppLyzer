@@ -4,7 +4,7 @@ This research focuses on classifying android samples using static analysis. The 
 
 ## Version 1: 
 
---> Data collection: We used the Androzoo data set https://androzoo.uni.lu/ to collect the data.
+--> Data collection: We used the Androzoo dataset for collecting 200K Benign samples (https://androzoo.uni.lu/) and received 200K malware samples from the Communication Security Establishment (CSE) and the Canadian Center of Cyber Security (CCCS).
 
 --> Feature Extraction: The static analysis for android malware detection has proven a very quick and effective way to deal with the code. We extract these static features: permissions, Intents (Actions and Categories), Services, The number of activities, meta-data, Icons, Pictures, audios, videos and the size of the app. Then these features are collected to create a binary vector for each app.
 
