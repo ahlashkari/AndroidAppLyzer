@@ -1,6 +1,7 @@
 ## Static Android App Analyzer and Classifier
 
 This research focuses on classifying android samples using static analysis. The first version of this package covers the data collection and static feature extraction. The second version will focus on developing a classification model using AI.
+The project has been supported by Mitacs Globalink Program by providing a research internship and CSE/CCCS by providing 200K Android malware samples. 
 
 ## Version 1: 
 
