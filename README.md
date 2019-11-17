@@ -10,10 +10,10 @@ The project has been supported by Mitacs Globalink Program by providing a resear
 --> Feature Extraction: The static analysis for android malware detection has proven a very quick and effective way to deal with the code. We extract these static features: permissions, Intents (Actions and Categories), Services, The number of activities, meta-data, Icons, Pictures, audios, videos and the size of the app. Then these features are collected to create a binary vector for each app.
 
 ------------------------------------------------------
-## Version 2:
+## Version 2: TBD
 
 ------------------------------------------------------
-## Version 3:
+## Version 3: TBD
 
 ------------------------------------------------------
 
