@@ -9,6 +9,6 @@ Download apktool https://ibotpeaches.github.io/Apktool/
 #### Commands to run the scripts :
 ```
 $ sudo; for dir in <Input Folder>/*; do Static_Capturing_Code.sh "$(basename "$dir")" <Output Folder> ;done
-$ for i in <Output_Folder_1>/*/*.txt; do python Create_Unique_Listes.py $i; done
-$ for i in <Output_Folder_1>/*/*.txt; do python Create_Vector.py $i <Output_Folder_1>/; done 
+$ for i in <Output_Folder>/*/*.txt; do python Create_Unique_Listes.py $i; done
+$ for i in <Output_Folder>/*/*.txt; do python Create_Vector.py $i <Output_Folder_1>/; done 
 ```
