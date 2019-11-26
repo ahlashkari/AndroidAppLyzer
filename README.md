@@ -6,7 +6,9 @@ This project has been supported by Mitacs Globalink Program (providing a researc
 
 ## Contributors:
 Arash Habiib Lashkari: Founder
-Abir Rahali: Developer
+
+Abir Rahali: Researcher and Developer (Mitacs Globalink Program)
+
 Francois Gagnon: Malware Dataset Provider (CSE/CCCS)
 
 ## Version 1: 
