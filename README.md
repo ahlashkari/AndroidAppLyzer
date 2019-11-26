@@ -4,6 +4,11 @@ This research focuses on classifying android samples using static and dynamic an
  
 This project has been supported by Mitacs Globalink Program (providing a research internship from Tunisia) and Harrison McCain Foundation Young Scholar Awards (providing enough fund for a 4-months coop student). The 200K Android malware samples provided by the Communication Security Establishment (CSE) and the Canadian Center for Cyber Security (CCCS). 
 
+## Contributors:
+Arash Habiib Lashkari: Founder
+Abir Rahali: Developer
+Francois Gagnon: Malware Dataset Provider (CSE/CCCS)
+
 ## Version 1: 
 
 --> Data collection: We used the Androzoo dataset for collecting 200K Benign samples (https://androzoo.uni.lu/) and received 200K malware samples from CSE/CCCS.
