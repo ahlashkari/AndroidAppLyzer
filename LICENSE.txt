@@ -1,4 +1,4 @@
-## Copyright (c) 2019 Canadian Institute for Cybersecurity (CIC)
+## Copyright (c) 2019 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (AndroidAppLyzer), to deal
@@ -18,7 +18,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
  
-For citation in your works and also understanding CICFlowMeter (formerly ISCXFlowMeter) completely, you can find below published paper:
+For citation in your works and also understanding AndroidAppLyzer completely, you can find below published paper:
 
 Extensible Android Malware Detection and Family Classification Using Network-Flows and API-Calls", Laya Taheri, Andi Fitriah Abdulkadir, Arash Habibi Lashkari, The IEEE (53rd) International Carnahan Conference on Security Technology, India, 2019
 
@@ -27,6 +27,6 @@ Extensible Android Malware Detection and Family Classification Using Network-Flo
 ## Contributors:
 Arash Habibi Lashkari: Founder
 
-Abir Rahali: Researcher and Developer (Mitacs Globalink Program)
+Abir Rahali: Researcher and Static Analyzer Developer (Mitacs Globalink Program)
 
 Francois Gagnon: Malware Dataset Provider (CSE/CCCS)
