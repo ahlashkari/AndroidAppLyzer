@@ -25,6 +25,7 @@ Extensible Android Malware Detection and Family Classification Using Network-Flo
 
 
 ## Contributors:
+
 Arash Habibi Lashkari: Founder
 
 Abir Rahali: Researcher and Static Analyzer Developer (Mitacs Globalink Program)
