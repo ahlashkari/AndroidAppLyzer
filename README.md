@@ -5,9 +5,9 @@ This research focuses on classifying android samples using static and dynamic an
 This project has been supported by Mitacs Globalink Program (providing a research internship from Tunisia) and Harrison McCain Foundation Young Scholar Awards (providing enough fund for a 4-months coop student). The 200K Android malware samples provided by the Communication Security Establishment (CSE) and the Canadian Center for Cyber Security (CCCS). 
 
 ## Contributors:
-Arash Habibi Lashkari: Founder
+Arash Habibi Lashkari: Founder and project manager
 
-Abir Rahali: Researcher and Developer (Mitacs Globalink Program)
+Abir Rahali: Researcher and Developer (Mitacs Globalink Research Internship - https://www.mitacs.ca/en/programs/globalink/globalink-research-internship)
 
 Francois Gagnon: Malware Dataset Provider (CSE/CCCS)
 
