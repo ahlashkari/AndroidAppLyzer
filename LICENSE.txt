@@ -20,7 +20,7 @@ SOFTWARE.
  
 For citation in your works and also understanding AndroidAppLyzer completely, you can find below published paper:
 
-TBD
+... (TBD)
 
 
 
