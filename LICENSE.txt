@@ -20,13 +20,13 @@ SOFTWARE.
  
 For citation in your works and also understanding AndroidAppLyzer completely, you can find below published paper:
 
-Extensible Android Malware Detection and Family Classification Using Network-Flows and API-Calls", Laya Taheri, Andi Fitriah Abdulkadir, Arash Habibi Lashkari, The IEEE (53rd) International Carnahan Conference on Security Technology, India, 2019
+TBD
 
 
 
 ## Contributors:
 
-Arash Habibi Lashkari: Founder
+Arash Habibi Lashkari: Founder and project manager
 
 Abir Rahali: Researcher and Static Analyzer Developer (Mitacs Globalink Program)
 
