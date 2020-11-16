@@ -29,5 +29,3 @@ Abir Rahali, Arash Habibi Lashkari, Gurdip Kaur, Laya Taheri, Francois Gagnon, a
 Arash Habibi Lashkari: Founder and project manager
 
 Abir Rahali: Researcher and Static Analyzer Developer (Mitacs Globalink Program)
-
-Francois Gagnon: Malware Dataset Provider (CSE/CCCS)
