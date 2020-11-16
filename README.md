@@ -24,9 +24,10 @@ Every script can be used independently.
 ## Contributors:
 * [**Arash Habibi Lashkari:**](https://www.cs.unb.ca/~alashkar/) Founder and Project Leader
 
-* For Static Analyzer: [Abir Rahali], Researcher and Developer (Mitacs Globalink Research Internship - https://www.mitacs.ca/en/programs/globalink/globalink-research-internship)
+* Abir Rahali: Researcher and Developer on the Static Analyzer, 
+(Supported by Mitacs Globalink Research Internship - https://www.mitacs.ca/en/programs/globalink/globalink-research-internship)
 
-For Dynamic Analyzer: TBD
+* TBD: Researcher and Developer on the Static Analyzer, 
 
 For testing this package, we used the Androzoo dataset for collecting 200K Benign samples (https://androzoo.uni.lu/) and received 200K malware samples from CSE/CCCS.
 Thanks, Francois Gagnon from CSE/CCCS for all his support and help in this part of the project. 
