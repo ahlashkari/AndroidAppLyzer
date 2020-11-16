@@ -9,7 +9,6 @@ Arash Habibi Lashkari: Founder and project manager
 
 Abir Rahali: Researcher and Developer (Mitacs Globalink Research Internship - https://www.mitacs.ca/en/programs/globalink/globalink-research-internship)
 
-Francois Gagnon: Malware Dataset Provider (CSE/CCCS)
 
 ## Version 1: 
 
