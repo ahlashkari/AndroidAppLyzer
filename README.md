@@ -5,15 +5,13 @@ This research focuses on classifying android samples using static and dynamic an
 This project has been supported by Mitacs Globalink Program (providing a research internship from Tunisia) and Harrison McCain Foundation Young Scholar Awards (providing enough fund for a 4-months coop student). The 200K Android malware samples provided by the Communication Security Establishment (CSE) and the Canadian Center for Cyber Security (CCCS). 
 
 
+------------------------------------------------------
 ## Static Analyzer: 
 
 --> Feature Extraction: The static analysis for android malware detection has proven a very quick and effective way to deal with the code. We extract these static features: permissions, Intents (Actions and Categories), Services, The number of activities, meta-data, Icons, Pictures, audios, videos and the size of the app. Then these features are collected to create a binary vector for each app.
 
 ------------------------------------------------------
 ## Dynamic Analyzer: : TBD
-
-------------------------------------------------------
-## Version 3: TBD
 
 ------------------------------------------------------
 
