@@ -22,7 +22,7 @@ In each folder, there is a ReadMe.md file on how to run the scripts.
 Every script can be used independently.
 
 ## Contributors:
-Arash Habibi Lashkari: Founder and project manager
+* [**Arash Habibi Lashkari:**](https://www.cs.unb.ca/~alashkar/) Founder and Project Leader
 
 For Static Analyzer: Abir Rahali, Researcher and Developer (Mitacs Globalink Research Internship - https://www.mitacs.ca/en/programs/globalink/globalink-research-internship)
 
