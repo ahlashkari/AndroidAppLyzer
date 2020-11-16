@@ -24,7 +24,7 @@ Every script can be used independently.
 ## Contributors:
 * [**Arash Habibi Lashkari:**](https://www.cs.unb.ca/~alashkar/) Founder and Project Leader
 
-For Static Analyzer: Abir Rahali, Researcher and Developer (Mitacs Globalink Research Internship - https://www.mitacs.ca/en/programs/globalink/globalink-research-internship)
+* For Static Analyzer: [Abir Rahali], Researcher and Developer (Mitacs Globalink Research Internship - https://www.mitacs.ca/en/programs/globalink/globalink-research-internship)
 
 For Dynamic Analyzer: TBD
 
