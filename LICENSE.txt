@@ -20,7 +20,7 @@ SOFTWARE.
  
 For citation in your works and also understanding AndroidAppLyzer completely, you can find below published paper:
 
-... (TBD)
+Abir Rahali, Arash Habibi Lashkari, Gurdip Kaur, Laya Taheri, Francois Gagnon, and Frédéric Massicotte, “DIDroid: Android Malware Classification and Characterization Using Deep Image Learning”, 10th International Conference on Communication and Network Security, Tokyo, Japan, November 2020
 
 
 
