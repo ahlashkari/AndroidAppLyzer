@@ -4,13 +4,27 @@ This research focuses on classifying android samples using static and dynamic an
  
 This project has been supported by Mitacs Globalink Program (providing a research internship from Tunisia) and Harrison McCain Foundation Young Scholar Awards (providing enough fund for a 4-months coop student). The 200K Android malware samples provided by the Communication Security Establishment (CSE) and the Canadian Center for Cyber Security (CCCS). 
 
-
-------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Static Analyzer: 
 
 --> Feature Extraction: The static analysis for android malware detection has proven a very quick and effective way to deal with the code. We extract these static features: permissions, Intents (Actions and Categories), Services, The number of activities, meta-data, Icons, Pictures, audios, videos and the size of the app. Then these features are collected to create a binary vector for each app.
+#### Features Extraction is the second step :
+We used apktool to reverse engineer the apks, then with the "grep" http://man7.org/linux/man-pages/man1/grep.1.html 
+command of shell we extracted the static features from AndroidManifest.xml file, finally a binary vectors with these features are creted 
+to each apk.
 
-------------------------------------------------------
+#### Prerequisites :
+Download apktool https://ibotpeaches.github.io/Apktool/
+
+#### Commands to run the scripts :
+```
+$ sudo; for dir in <Input Folder>/*; do Static_Capturing_Code.sh "$(basename "$dir")" <Output Folder> ;done
+$ for i in <Output_Folder>/*/*.txt; do python Create_Unique_Listes.py $i; done
+$ for i in <Output_Folder>/*/*.txt; do python Create_Vector.py $i <Output_Folder_1>/; done 
+```
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Dynamic Analyzer: 
 
 ### Android-Sandbox
@@ -246,7 +260,8 @@ Logcat_total
 Process_total
 ```
 
-------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
 
 In each folder, there is a ReadMe.md file on how to run the scripts. 
 
@@ -258,7 +273,10 @@ Every script can be used independently.
 * Abir Rahali: Researcher and Developer on the Static Analyzer, 
 (Supported by Mitacs Globalink Research Internship - https://www.mitacs.ca/en/programs/globalink/globalink-research-internship)
 
-* TBD: Researcher and Developer on the Static Analyzer, 
+* Beiqi Li: Researcher and Developer on the Dynamic Analyzer, 
+(Supported by the coop program of the University of New Brunswick (UNB) - https://www.unb.ca/academics/experientialeducation/work-integrated-learning/co-op-internships.html)
+
+* Gurdip Kaur: Researcher (Postdoctorall fellow) 
 
 For testing this package, we used the Androzoo dataset for collecting 200K Benign samples (https://androzoo.uni.lu/) and received 200K malware samples from CSE/CCCS.
 Thanks, Francois Gagnon from CSE/CCCS for all his support and help in this part of the project. 
