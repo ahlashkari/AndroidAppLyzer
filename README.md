@@ -270,10 +270,10 @@ Every script can be used independently.
 ## Contributors:
 * [**Arash Habibi Lashkari:**](https://www.cs.unb.ca/~alashkar/) Founder and Project Leader
 
-* Abir Rahali: Researcher and Developer on the Static Analyzer, 
+* Abir Rahali: Researcher and developer of the Static Analyzer, 
 (Supported by Mitacs Globalink Research Internship - https://www.mitacs.ca/en/programs/globalink/globalink-research-internship)
 
-* Beiqi Li: Researcher and Developer on the Dynamic Analyzer, 
+* Beiqi Li: Researcher and developer of the Dynamic Analyzer, 
 (Supported by the coop program of the University of New Brunswick (UNB) - https://www.unb.ca/academics/experientialeducation/work-integrated-learning/co-op-internships.html)
 
 * Gurdip Kaur: Researcher (Postdoctorall fellow) 
