@@ -1,0 +1,36 @@
+{
+	"name": "espionage-web-server",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"setcap": "sudo setcap 'cap_net_bind_service=+ep' `which node`",
+		"start": "node ./bin/www"
+	},
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"chalk": "^3.0.0",
+		"connect-busboy": "0.0.2",
+		"connect-mongo": "^3.1.2",
+		"cookie-parser": "^1.4.4",
+		"csv-writer": "^1.5.0",
+		"debug": "^4.1.1",
+		"ejs": "^2.5.9",
+		"express": "^4.17.1",
+		"express-flash": "0.0.2",
+		"express-jwt": "^5.3.1",
+		"express-session": "^1.17.0",
+		"formidable": "^1.2.1",
+		"http-errors": "^1.7.3",
+		"jsonwebtoken": "^8.5.1",
+		"mongodb": "^3.3.5",
+		"mongoose": "^5.7.12",
+		"mongoose-unique-validator": "^2.0.3",
+		"morgan": "^1.9.1",
+		"multiparty": "^4.2.1",
+		"passport": "^0.4.0",
+		"passport-jwt": "^4.0.0",
+		"passport-local": "^1.0.0",
+		"passport-local-mongoose": "^5.0.1",
+		"pdfmake": "^0.1.62"
+	}
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CIC Espionage - Register</title>
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/css/actionform.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+	<link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+</head>
+
+<body>
+	<script src="/js/jquery-3.3.1.min.js"></script>
+	<script src="/js/popper.min.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/jdenticon.min.js"></script>
+	<div class="container">
+		<div class="row">
+			<% if(typeof err !== 'undefined' && err){ %>
+			<div class="col-md-12">
+				<div class="alert alert-danger alert-dismissible fade show" role="alert">
+					<strong>Error:</strong>
+					<%- err %>
+					<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+			</div>
+			<% } %>
+			<div class="col-md-12 text-center">
+				<form class="actionform" id="compForm" action="/auth/register" method="post">
+					<img class="mb-4" src="/img/logo.svg" alt="" width="72" height="72">
+
+					<label for="inputUsername" class="sr-only">Username</label>
+					<input name="username" type="text" id="inputUsername" class="form-control top" placeholder="Username" required autofocus>
+
+					<label for="inputEmail" class="sr-only">Email</label>
+					<input name="email" type="email" id="inputEmail" class="form-control mid" placeholder="Email" required>
+
+					<label for="inputPassword" class="sr-only">Password</label>
+					<input name="password" type="password" id="inputPassword" class="form-control mid" placeholder="Password" required>
+
+					<label for="inputConfirmPassword" class="sr-only">Confirm password</label>
+					<input name="confirmPassword" type="password" id="inputConfirmPassword" class="form-control bottom" placeholder="Confirm password"
+						required>
+
+					<button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>
+					<p class="mt-2"><a href="/auth/login"><i class="fas fa-long-arrow-alt-left"></i> or login</a></p>
+					<p class="mt-5 mb-3 copyright">&copy; <%= (new Date()).getFullYear() %> Canadian Institute for Cybersecurity</p>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

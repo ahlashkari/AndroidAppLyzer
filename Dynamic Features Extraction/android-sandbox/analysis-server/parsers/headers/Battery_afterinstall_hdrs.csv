@@ -1,0 +1,32 @@
+"4 NlpWakeLock: 215ms (1 times) realtime
+","ScheduleNextAlarmWakeLock: 114ms partial (8 times) realtime
+","CalendarReceiver_Provider: 48ms partial (8 times) realtime
+","*alarm*: 49ms partial (11 times) realtime
+","*backup* realtime
+","ScheduleNextAlarmWakeLock realtime
+","CalendarReceiver_Provider realtime
+","*alarm* realtime
+","show keyguard realtime
+","*vibrator* realtime
+","AudioMix realtime
+","RingtonePlayer realtime
+","WindowManager realtime
+","Icing realtime
+","AudioIn realtime
+","NlpWakeLock realtime
+","GCoreFlp realtime
+","Babel_ConcService realtime
+","StartingAlertService realtime
+","*net_scheduler* realtime
+","*sync*/com.google.android.apps.fitness/com.google/cic.googl.02@gmail.com realtime
+","*sync*/com.chrome.beta/com.google/cic.googl.01@gmail.com realtime
+","WakefulIntentService realtime
+","*sync*/com.google.android.apps.paidtasks/com.google/cic.googl.02@gmail.com realtime
+","*sync*/com.google.android.maps.mytracks/com.google/cic.googl.02@gmail.com realtime
+","*sync*/com.google.android.apps.blogger.provider.blogprovider/com.google/cic.googl.02@gmail.com realtime
+","*sync*/com.nianticproject.ingress.content.NemesisProvider/com.google/cic.googl.02@gmail.com realtime
+","*sync*/com.google.android.apps.vega.content.VegaContentProvider/com.google/cic.googl.02@gmail.com realtime
+","Timely realtime
+","*sync*/ch.bitspin.timely.referral/com.google/cic.googl.01@gmail.com realtime
+","*sync*/ch.bitspin.timely.sync/com.google/cic.googl.01@gmail.com realtime
+"

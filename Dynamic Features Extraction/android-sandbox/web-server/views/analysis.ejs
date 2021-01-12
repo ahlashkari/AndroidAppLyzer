@@ -1,0 +1,238 @@
+<%- include header.ejs %>
+	<main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+	<div class="pt-3">
+		<% if(typeof analysis !== 'undefined' && analysis){ %>
+		<div class="row">
+			<div class="col-md-8">
+				<h2>Analysis</h2>
+				<% if(analysis.state === 4){ %>
+				<div class="btn-group mb-2">
+					<a class="btn btn-sm btn-outline-secondary" href="/analyse/<%= analysis.sha256 %>/analysis.pdf" download>PDF</a>
+					<a class="btn btn-sm btn-outline-secondary" href="/analyse/<%= analysis.sha256 %>/analysis.json" download>JSON</a>
+					<a class="btn btn-sm btn-outline-secondary" href="/analyse/<%= analysis.sha256 %>/analysis.csv" download>CSV</a>
+				</div>
+				<% } %> 
+				<% if(user.tags.includes("administrator")){ %>
+				<span class="d-inline-flex align-middle mb-2">
+					<a class="btn btn-sm btn-outline-danger mr-1" href="/admin/deleteanalysis/<%= analysis.sha256 %>">Delete</a>
+					<% if(analysis.state === 1){ %>
+					<a class="btn btn-sm btn-outline-warning mr-1" href="/admin/approveanalysis/<%= analysis.sha256 %>/emulator">Downgrade to emulator</a>
+					<a class="btn btn-sm btn-outline-success mr-1" href="/admin/approveanalysis/<%= analysis.sha256 %>/phone">Approve for phone</a>
+					<% } %>
+				</span>
+				<% } %>
+				<div class="table-responsive">
+					<table class="table">
+						<tbody>
+							<% if(analysis.deviceType && analysis.deviceType != null){ %>
+							<tr>
+								<td>
+									Device type
+								</td>
+								<td>
+									<span class="badge analysis-badge badge-secondary">
+										<%= analysis.deviceType.toUpperCase() %>
+									</span>
+								</td>
+							</tr>
+							<% } %>
+							<% if(analysis.fileName){ %>
+							<tr>
+								<td>
+									File name
+								</td>
+								<td>
+									<span class="badge analysis-badge badge-secondary">
+										<%= analysis.fileName %>
+									</span>
+								</td>
+							</tr>
+							<% } %>
+							<% if(analysis.packageName && analysis.packageName != null){ %>
+							<tr>
+								<td>
+									Package
+								</td>
+								<td>
+									<span class="badge analysis-badge badge-secondary">
+										<%= analysis.packageName %>
+									</span>
+								</td>
+							</tr>
+							<% } %>
+							<% if(analysis.sha256){ %>
+							<tr>
+								<td>
+									SHA-256
+								</td>
+								<td>
+									<span class="badge analysis-badge badge-success">
+										<%= analysis.sha256 %>
+									</span>
+								</td>
+							</tr>
+							<% } %>
+							<% if(analysis.sha1){ %>
+							<tr>
+								<td>
+									SHA-1
+								</td>
+								<td>
+									<span class="badge analysis-badge badge-success">
+										<%= analysis.sha1 %>
+									</span>
+								</td>
+							</tr>
+							<% } %>
+							<% if(analysis.md5){ %>
+							<tr>
+								<td>
+									MD5
+								</td>
+								<td>
+									<span class="badge analysis-badge badge-success">
+										<%= analysis.md5 %>
+									</span>
+								</td>
+							</tr>
+							<% } %>
+							<% if(analysis.state === 4){ %>
+							<tr>
+								<td>
+									PCAP
+								</td>
+								<td>
+									<a href="/analyse/<%= analysis.sha256 %>/pcap">
+										<span class="badge analysis-badge badge-primary">
+											Download file
+										</span>
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									Permissions
+								</td>
+								<td>
+									<button class="btn btn-light show-hide-btn collapsed" type="button" data-toggle="collapse" data-target="#permissions" aria-expanded="false" aria-controls="permissions"></button>
+									<pre class="pre-constrained collapse" id="permissions"><code><%= JSON.stringify(analysis.permissions, null, 2) %></code></pre>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									batteryCSV
+								</td>
+								<td>
+									<button class="btn btn-light show-hide-btn collapsed" type="button" data-toggle="collapse" data-target="#batteryCSV" aria-expanded="false" aria-controls="batteryCSV"></button>
+									<table class="table collapse" id="batteryCSV">
+										<tbody>
+											<%- formatCSVObjects(analysis.batteryCSV) %>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									intentCSV
+								</td>
+								<td>
+									<button class="btn btn-light show-hide-btn collapsed" type="button" data-toggle="collapse" data-target="#intentCSV" aria-expanded="false" aria-controls="intentCSV"></button>
+									<table class="table collapse" id="intentCSV">
+										<tbody>
+											<%- formatCSVObjects(analysis.intentCSV) %>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									permCSV
+								</td>
+								<td>
+									<button class="btn btn-light show-hide-btn collapsed" type="button" data-toggle="collapse" data-target="#permCSV" aria-expanded="false" aria-controls="permCSV"></button>
+									<table class="table collapse" id="permCSV">
+										<tbody>
+											<%- formatCSVObjects(analysis.permCSV) %>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+							<% }else if(analysis.state === 3){ %>
+							<tr>
+								<td>
+									Status
+								</td>
+								<td>
+									<span class="badge analysis-badge badge-warning">
+										In progress <i class="fas fa-cog fa-spin"></i>
+									</span>
+								</td>
+							</tr>
+							<meta http-equiv="refresh" content="6"> <!-- TODO: temporary refresh solution -->
+							<% }else if(analysis.state === 2){ %>
+							<tr>
+								<td>
+									Status
+								</td>
+								<td>
+									<span class="badge analysis-badge badge-info">
+										Queued <i class="fas fa-cloud-upload-alt"></i>
+									</span>
+								</td>
+							</tr>
+							<meta http-equiv="refresh" content="6"> <!-- TODO: temporary refresh solution -->
+							<% }else if(analysis.state === 1){ %>
+							<tr>
+								<td>
+									Status
+								</td>
+								<td>
+									<span class="badge analysis-badge badge-info">
+										Awaiting approval <i class="fas fa-user-shield"></i>
+									</span>
+								</td>
+							</tr>
+							<meta http-equiv="refresh" content="6"> <!-- TODO: temporary refresh solution -->
+							<% }else if(analysis.state === 0){ %>
+							<tr>
+								<td>
+									Status
+								</td>
+								<td>
+									<span class="badge analysis-badge badge-danger">
+										Error <i class="fas fa-exclamation-triangle"></i>
+									</span>
+								</td>
+							</tr>
+							<% if(user.tags.includes("administrator")){ %>
+							<tr>
+								<td>
+									Error data <span class="badge badge-info"><i class="fas fa-user-shield"></i></span>
+								</td>
+								<td>
+									<pre class="pre-constrained"><code><%= analysis.error %></code></pre>
+								</td>
+							</tr>
+							<% } %>
+							<% } %>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<h2>Screenshot</h2>
+				<% if(analysis.screenshotPath){ %>
+					<img class="img-fluid" src="/analyse/<%= analysis.sha256 %>/screenshot">
+				<% }else{ %>
+					<img class="img-fluid" src="/img/screenshot-placeholder.png">
+				<% } %>
+			</div>
+		</div>
+		<% }else{ %>
+		<h2>
+			<span class="badge analysis-badge badge-danger">Unknown hash <i class="fas fa-exclamation-triangle"></i></span></span>
+		</h2>
+		<% } %>
+	</div>
+</main>
+<%- include footer.ejs %>

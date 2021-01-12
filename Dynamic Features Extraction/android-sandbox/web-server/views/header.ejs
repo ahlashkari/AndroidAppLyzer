@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CIC Espionage</title>
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/css/dashboard.css">
+	<link rel="stylesheet" href="/css/index.css">
+	<link rel="stylesheet" href="/css/highlight.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+	<link rel="shortcut icon" type="image/png" href="/img/favicon.png" />
+</head>
+
+<body>
+	<nav class="navbar navbar-dark fixed-top bg-dark p-0 shadow">
+		<a class="navbar-brand col-sm-3 col-md-2 mr-0 cic-logo-box" href="/">
+			<img src="/img/logo.svg" class="img-responsive">&nbsp;CIC Espionage
+		</a>
+		<div class="" id="navbarNavDropdown">
+			<span class="w-100"></div> <!--TODO: not a great solution-->
+			<li class="navbar-text dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<%= user.username %>
+				</a>
+				<div class="dropdown-menu menu-adjust" aria-labelledby="navbarDropdownMenuLink">
+					<div class="card nav-card" style="width: 18rem;">
+						<div class="card-body">
+							<h5 class="card-title">
+								<%= user.username %>
+								<%- gPermBadge(user.tags.includes("administrator"), true) %>
+								<%- gBannedBadge(user.tags.includes("banned"), true) %>
+							</h5>
+							<p class="card-text">
+								<%= user.email %>
+							</p>
+							<a href="/auth/changepassword" class="btn btn-secondary btn-sm">Change password</a>
+							<a href="/auth/logout" class="btn btn-dark btn-sm">Logout</a>
+						</div>
+					</div>
+				</div>
+			</li>
+		</div>
+	</nav>
+
+	<div class="container-fluid">
+		<div class="row">
+			<nav class="col-md-2 d-none d-md-block bg-light sidebar">
+				<div class="sidebar-sticky">
+					<ul class="nav flex-column">
+						<li class="nav-item">
+							<a class="nav-link <%= active=='home' ? 'active' : ''%>" href="/">
+								<i class="fas fa-home"></i>
+								Home
+								<span class="sr-only">(current)</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link <%= active=='about' ? 'active' : ''%>" href="/about">
+								<i class="fas fa-info-circle"></i>
+								About
+							</a>
+						</li>
+					</ul>
+					<% if(user.tags.includes("administrator")){ %>
+					<!--TODO: permission schema?-->
+					<h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+						<span>Administrator panel</span>
+					</h6>
+					<ul class="nav flex-column mb-2">
+						<li class="nav-item">
+							<a class="nav-link <%= active=='adminapprovalqueue' ? 'active' : ''%>" href="/admin/approvalqueue">
+								<i class="fas fa-user-shield"></i>
+								Approval queue 
+								<% if(typeof approvalQueueCount !== 'undefined' && approvalQueueCount > 0){ %><span class="badge badge-pill badge-info"><%= approvalQueueCount %></span><% } %>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link <%= active=='adminanalyses' ? 'active' : ''%>" href="/admin/analyses">
+								<i class="fas fa-cogs"></i>
+								Analyses list
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link <%= active=='adminusers' ? 'active' : ''%>" href="/admin/users">
+								<i class="fas fa-users"></i>
+								Users list
+							</a>
+						</li>
+					</ul>
+					<% } %>
+					<% if(typeof recentAnalyses !== 'undefined' && recentAnalyses.length > 0){ %>
+					<h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+						<span>Recent analyses</span>
+						<a class="d-flex align-items-center text-muted" href="#">
+							<i class="fas fa-question-circle"></i>
+						</a>
+					</h6>
+					<ul class="nav flex-column mb-2">
+						<% for(let i = 0; i < recentAnalyses.length; i++){ %>
+						<li class="nav-item">
+							<a class="nav-link <%= typeof analysis !== 'undefined' && analysis && recentAnalyses[i].sha256==analysis.sha256 ? 'active' : ''%>"
+								href="/analyse/<%= recentAnalyses[i].sha256 %>">
+								<!--TODO: fix this pls-->
+								<% if(recentAnalyses[i].state == 0){ %>
+								<i class="fas fa-exclamation-triangle"></i>
+								<% }else if(recentAnalyses[i].state == 1){ %>
+								<i class="fas fa-user-shield"></i>
+								<% }else if(recentAnalyses[i].state == 2){ %>
+								<i class="fas fa-cloud-upload-alt"></i>
+								<% }else if(recentAnalyses[i].state == 3){ %>
+								<i class="fas fa-cog fa-spin"></i>
+								<% }else if(recentAnalyses[i].state == 4){ %>
+								<i class="fas fa-check-circle"></i>
+								<% }else{ %>
+								<i class="fas fa-question-circle"></i>
+								<% } %>
+								<code><%= recentAnalyses[i].sha256.substr(0,8) %>...</code>
+							</a>
+						</li>
+						<% } %>
+					</ul>
+					<% } %>
+				</div>
+			</nav>
