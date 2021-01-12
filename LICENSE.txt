@@ -20,12 +20,13 @@ SOFTWARE.
  
 For citation in your works and also understanding AndroidAppLyzer completely, you can find below published paper:
 
-Abir Rahali, Arash Habibi Lashkari, Gurdip Kaur, Laya Taheri, Francois Gagnon, and Frédéric Massicotte, “DIDroid: Android Malware Classification and Characterization Using Deep Image Learning”, 10th International Conference on Communication and Network Security, Tokyo, Japan, November 2020
+Abir Rahali, Arash Habibi Lashkari, Gurdip Kaur, Laya Taheri, Francois Gagnon, and Frédéric Massicotte, “DIDroid: Android Malware Classification and Characterization Using Deep Image Learning”, 10th International Conference on Communication and Network Security, Tokyo, Japan, November 2020, https://doi.org/10.1145/3442520.3442521
 
 
 
 ## Contributors:
 
 Arash Habibi Lashkari: Founder and project manager
-
-Abir Rahali: Researcher and Static Analyzer Developer (Mitacs Globalink Program)
+Gurdip Kaur: Researcher (Postdoctorall fellow)
+Abir Rahali: Researcher and developer of the Static Analyzer (Mitacs Globalink Program)
+Beiqi Li: Researcher and developer of the Dynamic Analyzer (Supported by the coop program of the University of New Brunswick (UNB)
