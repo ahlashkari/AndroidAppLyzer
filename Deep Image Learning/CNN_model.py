@@ -122,7 +122,8 @@ def MyModel(X_Data_Final, Y_Data_Final):
     #model_2.add(Dropout(0.005))
     model_2.add(Flatten())
     model_2.add(Dense(256, activation='relu'))
-    model_2.add(Dense(8, activation='softmax'))
+    #Please replace the number of neurons in dense layer below with number of labels in the dataset
+    model_2.add(Dense(12, activation='softmax'))
     #model_2.add(Dropout(0.015))
     #model_2.summary()
     model_2.compile(loss='sparse_categorical_crossentropy', optimizer=optimizer, metrics=['accuracy'])
@@ -161,7 +162,8 @@ def MyModel(X_Data_Final, Y_Data_Final):
         i = i + 1
 #######Predicting Category over
     print(metrics.classification_report(Y_te, y_pred, digits=2))
-    plot_confusion_matrix(Y_te, y_pred, classes = ['Audio-Streaming','Browsing','Chat','Email','File-Transfer','P2P','Video-Streaming','VOIP'],
+    #Please replace the classes in line below with labels in the dataset
+    plot_confusion_matrix(Y_te, y_pred, classes = ['Adware','Backdoor','FileInfector','PUA','Ransomware','Riskware','Scareware','Trojan','Trojan_Banker','Trojan_Dropper','Trojan_SMS','Trojan_Spy'],
                           title='Confusion matrix, without normalization')
     #plot_confusion_matrix(Y_te, y_pred, classes = ['BENIGN','DNS','LDAP','MSSQL','NTP','NetBIOS','SNMP','SSDP','Syn','TFTP','UDP','UDPLag'],
      #                    normalize=True, title='Normalized Confusion matrix')
