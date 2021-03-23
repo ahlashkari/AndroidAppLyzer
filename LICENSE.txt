@@ -9,7 +9,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
  
 ## For citation in your works and also understanding AndroidAppLyzer completely, you can find below published paper:
 
-Abir Rahali, Arash Habibi Lashkari, Gurdip Kaur, Laya Taheri, Francois Gagnon, and Frédéric Massicotte, “DIDroid: Android Malware Classification and Characterization Using Deep Image Learning”, 10th International Conference on Communication and Network Security, Tokyo, Japan, November 2020, https://doi.org/10.1145/3442520.3442521
+For Static Analysis :
+
+Abir Rahali, Arash Habibi Lashkari, Gurdip Kaur, Laya Taheri, Francois Gagnon, and Frédéric Massicotte, "DIDroid: Android Malware Classification and Characterization Using Deep Image Learning", 10th International Conference on Communication and Network Security, Tokyo, Japan, November 2020, https://doi.org/10.1145/3442520.3442521
+
+For Dynamic Analysis:
+
+David Sean Keyes, Beiqi Li, Gurdip Kaur, Arash Habibi Lashkari, Francois Gagnon, Fr´ed´eric Massicotte, "EntropLyzer: Android Malware Classification and Characterization Using Entropy Analysis of Dynamic Characteristics", Reconciling Data Analytics, Automation, Privacy, and Security: A Big Data Challenge (RDAAPS), IEEE 978-1-7281-6937-8/20, Canada, ON, McMaster University, 2021
 
 
 
