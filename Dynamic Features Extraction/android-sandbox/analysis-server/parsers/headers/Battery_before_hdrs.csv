@@ -1,0 +1,937 @@
+"Icing realtime
+","*alarm* realtime
+","4 NlpWakeLock: 215ms (1 times) realtime
+","ScheduleNextAlarmWakeLock: 114ms partial (8 times) realtime
+","CalendarReceiver_Provider: 48ms partial (8 times) realtime
+","*alarm*: 49ms partial (11 times) realtime
+","*backup* realtime
+","ScheduleNextAlarmWakeLock realtime
+","CalendarReceiver_Provider realtime
+","show keyguard realtime
+","*vibrator* realtime
+","AudioMix realtime
+","RingtonePlayer realtime
+","WindowManager realtime
+","AudioIn realtime
+","NlpWakeLock realtime
+","GCoreFlp realtime
+","8af61287d realtime
+","6ae6b realtime
+","21f6671 realtime
+","3716a8 realtime
+","104fb96 realtime
+","dde4d5d9bf realtime
+","MyWakeLock realtime
+","Babel_ConcService realtime
+","*net_scheduler* realtime
+","StartingAlertService realtime
+","YOUR TAG realtime
+","SSDDDWDW realtime
+","LocationManagerService realtime
+","WakeLock Tag realtime
+","Unity-StartupWakeLock realtime
+","Unity-ProjectRequestedWakeLock realtime
+","DownloadManager realtime
+","wakeupnet realtime
+","AudioOffload realtime
+","*job*/com.iflytek.ringdiyclient.phonerings/com.iflytek.ipc.daemon.KYJobSchedulerService realtime
+","Browser realtime
+","tag realtime
+","BaseLib realtime
+","com.android.sdk.rec.SymService realtime
+","admin realtime
+","wake:com.pellittiere.rorl/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.bianor.ams cmp=com.bianor.ams/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.uefa.eurofantasy/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","GCM_LIB realtime
+","PushIOGCMWakeLock realtime
+","wake:tools.bmirechner/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:it.mm.android.relaxrain/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.twentify.bounty/.service.firebase.BountyFirebaseInstanceIDService realtime
+","UPLOAD_WAKE_LOCK realtime
+","wake:com.zentertain.rapidhitcasino/com.zentertain.remotenotification.MyFirebaseInstanceIDService realtime
+","wake:com.beyondtherack.btrandroid/com.exacttarget.etpushsdk.ETSendDataIntentService realtime
+","etpushSDK@ETPush realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.atistudios.italk.pl cmp=com.atistudios.italk.pl/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","borCpuLock realtime
+","*sync*/com.josephclough.hypnosis.contentprovider/com.josephclough/Android User realtime
+","UA_GCM_WAKE_LOCK realtime
+","Life360 - Update realtime
+","wake:com.orionhoroscope.daily.horoscope/com.orionhoroscope.Service.FirebaseInstanceIDService realtime
+","wake:app.qrcode/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.enzuredigital.weatherbomb/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.sipols.politics/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.buscaalimento.android/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","com.renadultres_WAKE_LOCK_TAG realtime
+","wake:com.droid27.d3flipclockweather/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.aniapps.shortstories/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.ao.generaladaptiveapps cmp=com.ao.generaladaptiveapps/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.atlasappco.draftkingsdailyfootball/com.c0smosis.dailyfantasyshared.MyFirebaseInstanceIdService realtime
+","wake:org.netTalk.smartphone/io.intercom.android.sdk.gcm.GcmIntentService realtime
+","*sync*/com.android.contacts/org.connect.nettalk.smartphone/CONNECT realtime
+","org.doubango.ngn.NgnApplication realtime
+","wake:com.djit.equalizerplusforandroidfree/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","com.bubblesoft.android.bubbleupnp.mediaserver.aq realtime
+","wake:com.kidscrape.king/.remote.message.RemoteMessageInstanceIdService realtime
+","wake:com.groupon/.service.GCMNotificationService realtime
+","DoNotDimScreen realtime
+","wake:com.recommended.videocall/sk.forbis.recommendedapps.gcm.MyInstanceIDListenerService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=gift.wojingdaile cmp=gift.wojingdaile/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.netqin.ps/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","C2DM_LIB realtime
+","GOOGLE_C2DM realtime
+","wake:com.dupovalo.goroskop/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","*sync*/com.abc.abcnews/com.abc.abcnews.accounttype/ABCNewsAccount realtime
+","NlpCollectorWakeLock realtime
+","wake:com.xero.touch/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.ovuline.pregnancy/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.duolingo/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","BbmPlatform realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.ov.generaladaptiveapps cmp=com.ov.generaladaptiveapps/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","com.navitime.app.WakefullIntentService.Lock realtime
+","wake:com.xapp.randomvideochat/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.venticake.retrica/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","efytaxi realtime
+","wake:com.eymenn.mail/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.adda247.app/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.shpock.android/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.TheMrDeveloper.StockRomDownloader/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.finperssaver/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.particlenews.newsbreak/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","aJl realtime
+","wake:com.outfall.loteria/core.service.Service realtime
+","wake:com.ss.android.article.master/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.ss.android.article.master/com.gcm.SSGcmListenerService realtime
+","iMediaShare_PowerManagerLock realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.zoobe.zoobecam cmp=com.zoobe.zoobecam/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=travel.footsteps cmp=travel.footsteps/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.mathrawk.privatetexting/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.freeinternetandroid cmp=com.freeinternetandroid/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.contextlogic.geek/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.atistudios.italk.ru cmp=com.atistudios.italk.ru/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.moneyforward.nfcreader/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","My Tag realtime
+","com.loudtalks.cpu realtime
+","wake:com.mobisystems.mobiscanner/.controller.MyFirebaseInstanceIdService realtime
+","BindingKeyGen realtime
+","wake:com.tntstudio.tattoo.tattooonphoto/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","com.joyce.meyer.daily.joyce_WAKE_LOCK_TAG realtime
+","wake:com.athan/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.dodock.footylightapp.android/com.dodock.footylightapp.application.MyFirebaseInstanceIDService realtime
+","wake:com.scores365/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.scores365/.gcm.GetGcmTokenService realtime
+","AquaMail WakeLock realtime
+","org.kman.AquaMail.SimpleWakefulService realtime
+","wake:com.aleskovacic.messenger/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.earlystart.android.monkeyjunior/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.once.android/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.virtualmaze.gpsdrivingroute/.firebase.MyFirebaseInstanceIDService realtime
+","CoreService onStart realtime
+","CoreService addWakeLock realtime
+","wake:ginlemon.flowerfree/ginlemon.flower.cloudMessaging.SLInstanceIDListenerService realtime
+","wake:com.idea.backup.smscontacts/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.glow.android.eve/.notification.LexieInstanceIdListenerService realtime
+","sg.bigo.sdk.push.gcm.wakeLock realtime
+","wake:com.cmcm.whatscall/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","yymeet.serviceStart realtime
+","wake:com.stockmarket.stockscreener/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","*sync*/com.adeptmobile.ufc.fans.provider.ufcfans/com.adeptmobile.ufc.fans.account/UFC Fans realtime
+","com.xtify.WakefulIntentService realtime
+","com.xtify.sdk.LocationUpdateService realtime
+","wake:com.mapquest.android.ace/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.awinterg.fedbells/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","*job*/com.unitconvertplus.app/.UnitConverterServiceCheck realtime
+","wake:com.kajda.fuelio/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.kajda.fuelio/.Service.LocalAutoBackupIntentService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=org.goldinc.ok cmp=org.goldinc.ok/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.callapp.contacts/.service.CallAppService realtime
+","wake:com.bmb.statusforwhatsapp/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.reebee.reebee/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.keyideas.indianrailways/com.keyideas.pushnotification.MyInstanceIDListenerService realtime
+","TriggerLoop realtime
+","wake:com.marriott.mrt/com.marriott.mobile.network.gcm.GcmRefreshInstanceIDListenerService realtime
+","wake:com.SkyDivers.asteroids3d/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.fyndus.fyndus/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:sh.whisper/.BackgroundLocationServiceTimed realtime
+","wake:fm.player/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","my_wakelock realtime
+","wake:com.credihealth.android/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","com.avaya.ScsCommander.ScSCommander realtime
+","wake:com.domobile.applock/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.rr.generaladaptiveapps cmp=com.rr.generaladaptiveapps/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=ca.honeygarlic.garibaldi cmp=ca.honeygarlic.garibaldi/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.bendigi.Mortgage cmp=com.bendigi.Mortgage/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.shereadstruth.shereadstruth cmp=com.shereadstruth.shereadstruth/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.aadhk.restpos/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.ufo.disease/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:me.dingtone.app.im/.alarm.KeepAliveAlarmService realtime
+","wake:com.fsp.android.phonetracker/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.mlg/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","QueueService PARTIAL_WAKE_LOCK realtime
+","wake:com.perracolabs.cpd/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.ykart.tool.qrcodegen/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","GeofencePendingIntentWakeLock realtime
+","wake:me.talkyou.app.im/me.dingtone.app.im.alarm.KeepAliveAlarmService realtime
+","com.puissantapps.wordsearch.game.WordSearchGameActivity realtime
+","wake:com.puissantapps.wordsearch.game/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.shadow.amazing.spiderman.adventures.tips/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.voboo.sterlime.easy/.FirebaseClasses.MyFirebaseInstanceIDService realtime
+","HootSuite realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.aggrego.loop cmp=com.aggrego.loop/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.nis.app cmp=com.nis.app/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","IMO partial wake lock realtime
+","wake:com.fanzetech.tasbih/.csapi.GcmIdService realtime
+","wake:com.momento.cam/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.musixmatch.android.lyrify/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.atlasappco.fanduellineups/com.c0smosis.dailyfantasyshared.MyFirebaseInstanceIdService realtime
+","IJetty realtime
+","wake:com.mnv.reef/.client.notifications.ReefFCMInstanceIDService realtime
+","myService realtime
+","wake:de.stefanpledl.localcast/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.asiainno.uplive/com.asiainno.pppush.UpFirebaseInstanceIDService realtime
+","wake:com.bestweatherfor.bibleoffline_pt_ra/.android.firebase.MyFirebaseInstanceIDService realtime
+","wake:com.breakout.knocklockapps/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.funforfones.android.lametro/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:pl.lawiusz.funnyweather.release/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","*sync*/com.dailymail.online.MolContentProvider/com.dailymail.online.accounts.account.dailymail/Default Synchronization realtime
+","wake:com.uefa.ucl/com.pushwoosh.inapp.InAppRetrieverService realtime
+","wake:com.uefa.ucl/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=networld.price.app cmp=networld.price.app/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.bp.fingerprint.bloodpressure.prank.free/.MyFirebaseInstanceIDService realtime
+","Claw realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=se.lichtenstein.mind.en cmp=se.lichtenstein.mind.en/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.delco.courier/.services.CourierFirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.pinssible.fancykey cmp=com.pinssible.fancykey/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","Utility realtime
+","wake:laola1.wrc/com.pushwoosh.inapp.InAppRetrieverService realtime
+","FlashLight realtime
+","EnumerateFilesService realtime
+","com.bible.audio.myapp_WAKE_LOCK_TAG realtime
+","wake:com.sparrowsms/.android.thirdparty.broadcastservices.GcmIntentService realtime
+","com.arabytv_WAKE_LOCK_TAG realtime
+","wake:ca.autotrader.userapp/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.antivirus/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:wikem.chris/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.cupid/com.dating.sdk.service.FcmRefreshTokenService realtime
+","wake:com.fatcat.crazyclaydesign/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","*sync*/com.google.android.apps.fitness/com.google/cic.googl.02@gmail.com realtime
+","wake:uk.co.independent.dailyedition/com.kaldorgroup.pugpig.net.pushnotification.KGFirebaseInstanceIDService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.wantedly.android.visit cmp=com.wantedly.android.visit/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.mynet.android.mynetapp cmp=com.mynet.android.mynetapp/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","MainActivity realtime
+","HTTPMetricsTransportWakeLock realtime
+","*sync*/com.chrome.beta/com.google/cic.googl.01@gmail.com realtime
+","wake:gman.vedicastro/.fcmpush.CosmicnstanceIDListenerService realtime
+","wake:com.motus.milemarker/com.motus.core.services.FirebaseRefreshTokenService realtime
+","Unity-VideoPlayerWakeLock realtime
+","wake:com.gm.chevrolet.nomad.ownership/com.gm.gemini.sdk.service.MyGMFirebaseInstanceIDService realtime
+","My Lock realtime
+","com.goldnsilver_WAKE_LOCK_TAG realtime
+","com.quantcast.event.wakelock realtime
+","SMART_THERM realtime
+","wake:com.bt.bms/.GcmIntentService realtime
+","com.free.call.anywhere.mixtofreecalls_WAKE_LOCK_TAG realtime
+","wake:com.sonyericsson.digitalclockwidget2/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.eabdrazakov.photomontage/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.classdojo.android cmp=com.classdojo.android/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.machinezone.gow/com.mz.jix.IxGcmListenerService realtime
+","wake:com.toomics.zzamtoon.google/com.toomics.zzamtoon_n.push.ZZAMInstanceIDListenerService realtime
+","BAMNETWORKS_UPDATE_SERVICE realtime
+","Task Scheduler realtime
+","*job*/com.truecaller/.common.background.NativeScheduler realtime
+","capptain realtime
+","wake:com.fiftysixkbit.hockeyhornsfree/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.monotype.android.font.free.pencil/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.nll.acr/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","com.access_company.android.nfcommunicator realtime
+","wake:com.sirma.mobile.bible.android/com.youversion.push.gcm.YvGcmListenerService realtime
+","wake:com.sirma.mobile.bible.android/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.fusionprojects.edmodo cmp=com.fusionprojects.edmodo/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.rubycell.violin/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.mydiabetes/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.edge11.app.forexcalculators.beta/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:omegle.tv/.services.FirebaseInstanceIDService2 realtime
+","wake:com.lezhin.comics/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","PWRequestManager realtime
+","wake:com.herman.ringtone/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:aplicacion.tiempo/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.cardinalblue.piccollage.google/com.cardinalblue.android.piccollage.activities.MyFirebaseInstanceIDService realtime
+","wake:co.ifwe.hi5.live/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.chitchat.dev/.gcm.MyInstanceIDListenerService realtime
+","wake:com.apalon.ringtones/.push.GcmIdListenerService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.apalon.ringtones cmp=com.apalon.ringtones/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.apalon.ringtones/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","*sync*/com.daamitt.walnut.app.provider/getwalnut.com/Sync realtime
+","wake:si.topapp.myscansfree/.firebase.CustomFirebaseInstanceIDService realtime
+","wake:com.oristats.habitbull/.services.MyInstanceIDListenerService realtime
+","wake:com.trovit.android.apps.jobs/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","ca.lapresse.android.lapressemobile.os_service.WakefulIntentService realtime
+","wake:realtime.chinaprices/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.codified.hipyard/.messaging.GcmIntentService realtime
+","wake:com.taggedapp/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.ap.adval cmp=com.ap.adval/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:biz.bookdesign.librivox/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.hi5.app/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.degoo.android/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:net.traveldeals24.main/net.traveldeals24.network.GcmMessageReceiver realtime
+","UlysseSpeedoService realtime
+","JobService realtime
+","com.androidauthority_WAKE_LOCK_TAG realtime
+","ScheduleService realtime
+","wake:com.exovoid.weather.app/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","AbstractQuery: No ID realtime
+","lemon realtime
+","Stardroid.DynamicStarMapActivity realtime
+","AlarmReceiver realtime
+","wake:com.alifesoftware.stocktrainer/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","SyncMgrLock realtime
+","wakeful realtime
+","wake:com.colpit.diamondcoming.shopperslist/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=aussie.rules.live cmp=aussie.rules.live/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.vent/com.layer.sdk.services.LayerFcmInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.powerschool.portal cmp=com.powerschool.portal/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","CMDownloadManager realtime
+","wake:com.qihoo.mm.weather/.fcm.FcmFirebaseInstanceIDService realtime
+","wake:com.contextlogic.mama/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Installer_PowerLock realtime
+","wake:com.pengen.tukumontor.tipsgeometrydash/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.cme.newsreader.stirileprotv.ro/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:io.haegis.reily/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.lph.mobile.tsx/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:datingapps.luff/com.backendless.push.BackendlessPushService realtime
+","wake:pl.sport.live/.push.gcm.SportGcmListenerService realtime
+","wake:net.hubalek.android.apps.barometer/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.indianexpress.epaper cmp=com.indianexpress.epaper/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:fema.serietv2/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.AngleApp.ValentinesMessages/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.atistudios.ispeak.fr cmp=com.atistudios.ispeak.fr/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.andrewtretiakov.followers_assistant/.notifications.FCMIDService realtime
+","Jango realtime
+","wake:in.co.surve.davinciresolveshortcuts/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","*sync*/com.Splitwise.SplitwiseMobile.content/com.splitwise.datasync/dummy_account realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.ff.generaladaptiveapps cmp=com.ff.generaladaptiveapps/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.foap.android cmp=com.foap.android/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.ping4.ping4alerts.mass/com.ping4.ping4alerts.service.GcmMessageHandler realtime
+","com.commonsware.cwac.wakeful.WakefulIntentService realtime
+","S3DEngineWakeLock realtime
+","com.biowink.clue.reminders.notification.ReminderScheduler realtime
+","wake:com.dnt.babywonder/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Аллохни Зикр Килиш realtime
+","wake:com.thirdframestudios.android.expensoor/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","cpu_lck realtime
+","scr_lck realtime
+","*sync*/com.softxpert.android.fax.provider/com.softxpert.android.fax.account/fax realtime
+","android.media.MediaPlayer realtime
+","a realtime
+","wake:com.scee.psxandroid/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.fedex.ida.android/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.ihg.apps.android/com.otherlevels.android.sdk.OLService realtime
+","TIMERLOCK realtime
+","wake:com.fitnesskeeper.runkeeper.pro/com.fitnesskeeper.runkeeper.c2dm.C2DMReceiver realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.al.crimsontide.android cmp=com.al.crimsontide.android/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:mobi.recyclecoach.worldster.pack/mobi.recyclecoach.pushNotification.GCMIntentService realtime
+","wake:com.questico.fortunica.german/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.torontopearson/.GCMIntentService realtime
+","wake:com.flyperinc.cornerfly/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","namco.wireless.push.C2DMWakeLock realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.yik.yak cmp=com.yik.yak/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","de.schildbach.wallet blockchain sync realtime
+","XYTEST realtime
+","wake:com.armobi.recipes/com.arbimobi.recipes.network.InstanceIdService realtime
+","*sync*/yourpackagename.tensera/yourpackagename.tensera/sync realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.allproperty.android.consumer.id cmp=com.allproperty.android.consumer.id/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.macropinch.swan/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.sanfordguide.amt/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:jp.ne.hardyinfinity.bluelightfilter.free/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.manythingsdev.headphonetools/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.atistudios.italk.es cmp=com.atistudios.italk.es/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:aviaseller.su/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.narcis.expertbettingtips/.MyFirebaseInstanceIDService realtime
+","wake:com.stronglifts.app/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.colure.app.privacygallery/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:app.calleridfaker.com/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=app.calleridfaker.com cmp=app.calleridfaker.com/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.rl.generaladaptiveapps cmp=com.rl.generaladaptiveapps/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","*sync*/de.is24.android.searches/de.is24.android.account/Immobilien Scout 24 realtime
+","wake:jp.comico/.ComicoFirebaseInstanceIDService realtime
+","com.evernote.android.job.e realtime
+","wake:com.baloota.dumpster/.service.DumpsterFirebaseInstanceIDService realtime
+","com.doubleTwist.podcast.PodcastUpdateService realtime
+","wake:math.com/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","com.cyanogenmod.apps.for.lollipop_WAKE_LOCK_TAG realtime
+","AGOO_LIB realtime
+","wake:com.easy.currency.extra.androary/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.atistudios.italk.he cmp=com.atistudios.italk.he/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.piriform.ccleaner/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","com.enflick.android.featuretoggles.FeatureTogglesGetVersionService realtime
+","wake:com.soundcloud.android/.gcm.GcmInstanceIDListenerService realtime
+","wake:com.pixatel.apps.notepad/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","*sync*/com.phonegap.snocru/com.snocru.snocru/dummyaccount realtime
+","wake:com.phonegap.snocru/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.remotefairy4/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.sonymobile.xperiatransfermobile/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","ScheduleManagerImpl realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=pl.tribalddb.mcdonalds.app.android cmp=pl.tribalddb.mcdonalds.app.android/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:soundcloud.com.soundhound.com.us/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","com.zenstudios.platformlib.common.filedownloader.FileDownloaderToStreamJob realtime
+","com.zenstudios.platformlib.common.filedownloader.FileDownloaderToMemoryJob realtime
+","wake:com.excelatlife.panic/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.ftw_and_co.happn/.services.push.FcmInstanceIDListenerService realtime
+","wake:com.streema.simpleradio/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","MagistoWakeLock realtime
+","wake:com.ovuline.fertility/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.bambuna.podcastaddict/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:jqsoft.apps.periodictable.hd/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.gaana/com.moe.pushlibrary.MoEWorker realtime
+","Unpacker realtime
+","AppMeasurement WakeLock realtime
+","*job*/com.google.android.apps.chromecast.app/.util.phenotype.UpdatePhenotypeJobService realtime
+","ReddingWakeLock realtime
+","WlanSilencerWakeLock realtime
+","wake:com.nalsil.smartswitch/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","com.alhyat.tv.myapp_WAKE_LOCK_TAG realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=be.thomashermine.prochainbus cmp=be.thomashermine.prochainbus/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.opensooq.OpenSooq cmp=com.opensooq.OpenSooq/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.mobilefootie.wc2010/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.alpinereplay.android/.common.service.GCMFirebaseInstanceIDService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.secondarm.taptapdash cmp=com.secondarm.taptapdash/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.droid27.digitalclockweather/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.progexpert.tmc/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.nicedayapps.iss_free/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","SuspensionDetector realtime
+","NetworkService realtime
+","wake:com.olivier.currency/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.aqreadd.lw.valentines.gle.lite/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.askfm/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.kfn.fakegpsfree/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.sports.schedules.scores.hockey.nhl/com.sports.schedules.library.notification.SportsInstanceIDService realtime
+","wake:com.ProfitBandit/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.atistudios.italk.ja cmp=com.atistudios.italk.ja/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.monotype.android.font.free.written/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.futuresimple.base/.notifications.alarms.NotificationSchedulerService realtime
+","wake:com.futuresimple.base/.actionable_items.ActionableItemCounterService realtime
+","wake:com.podcast.podcasts/fm.castbox.service.push.MyFirebaseInstanceIDService realtime
+","wake:com.freevpnintouch/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.es.que.prefieres cmp=com.es.que.prefieres/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.Glitter.Private.Secret.Diary/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.trendmood.app/com.pushwoosh.inapp.InAppRetrieverService realtime
+","wake:bbc.mobile.news.ww/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","*sync*/bbc.mobile.news.ww.provider/bbc.mobile.news.ww.provider.datasync/BBC News Synchronization Service realtime
+","BXCFInit realtime
+","wake:com.appblockgames.freecraftexploration/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","MessageLoop realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.atistudios.italk.cs cmp=com.atistudios.italk.cs/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.avuscapital.trading212/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.ticktick.task/.location.alert.LocationAlertService realtime
+","wake:com.ticktick.task/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.ticktick.task/.activity.background.AutoSyncTaskService realtime
+","wake:com.ticktick.task/.reminder.AlertService realtime
+","wake:com.szyk.myheart/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","EzjoyRender realtime
+","wake:com.mico/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.abaenglish.videoclass/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.weightwatchers.mobile/com.exacttarget.etpushsdk.ETPushService realtime
+","~!ETPushService realtime
+","wake:com.undertap.watchmoviesfree/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.smsrobot.period/.UpgradeReceiverService realtime
+","WIDGET_UPDATE_REGISTER_ID_WAKE_LOCK realtime
+","com.apalon.weatherWakefulIntentService realtime
+","wake:com.msi.logogame/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:me.nextplus.smsfreetext.phonecalls/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.divumlabs.terraa cmp=com.divumlabs.terraa/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","com.facebook.common.dextricks.DexOptimization$Service$OptThread realtime
+","wake:com.uefa.euro2016/com.pushwoosh.inapp.InAppRetrieverService realtime
+","SplendoNotfServiceWakeLock realtime
+","wake:com.splendapps.splendo/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:pimpmyphoto.lviv.com.pimpmyphoto/.gcm.MyInstanceIDListenerService realtime
+","wake:com.blodhgard.easybudget/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.popfreetime.andweb/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.auco.android cmp=com.auco.android/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","SyncServiceWakeLock realtime
+","wake:com.newspicks/.service.MyInstanceIDListenerService realtime
+","wake:com.bitdefender.security/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","com.example.hbubblelevel.BubbleActivity realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.dsi.iris cmp=com.dsi.iris/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.bookmark.money/.fcm.MLFirebaseInstanceIDService realtime
+","wake:bibleverses.bibleverse.bible.biblia.verse.devotion/com.meevii.bibleverse.push.service.MyFirebaseInstanceIDService realtime
+","wake:bibleverses.bibleverse.bible.biblia.verse.devotion/com.meevii.bibleverse.push.service.MyFirebaseMessagingService realtime
+","AlarmAlertWakeLock realtime
+","wake:com.contextlogic.cute/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.microsoft.next/ms.loop.lib.listeners.PhoneListener$OutgoingCallService realtime
+","com.microsoft.next.activity.cx realtime
+","com.microsoft.next.activity.df realtime
+","com.microsoft.next.b realtime
+","com.microsoft.next.model.d.a.d realtime
+","wake:com.microsoft.next/ms.loop.lib.listeners.ApplicationListener$ApplicationListenerService realtime
+","com.microsoft.next.model.b realtime
+","com.microsoft.next.model.wallpaper.impl.MultipleDownloadAsyncTask realtime
+","com.microsoft.next.model.wallpaper.impl.l realtime
+","com.microsoft.next.model.wallpaper.impl.m realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.atistudios.mondly.languages cmp=com.atistudios.mondly.languages/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.realbyteapps.moneymanagerfree/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.distilledmedia.thejournal/com.distilledmedia.library.thejournal.notifications.PushNotificationIDListenerService realtime
+","wake:ca.guylyhey.studdetector.free/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:jailyne.com.jailyneojedaochoa/jailyne.com.webservice.MyFirebaseInstanceIDService realtime
+","wake:piuk.blockchain.android/.data.notifications.InstanceIdService realtime
+","*sync*/com.gopro.smarty.content.AppRoll/gopro.com/Sync realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.acstech.thecityv1 cmp=com.acstech.thecityv1/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.addme.android/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.serpentcs.ciosynergy/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:net.neobie.klse/.gcm.MyInstanceIDListenerService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=net.neobie.klse cmp=net.neobie.klse/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.wurzelkraut.Stash2Go/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","*sync*/com.wrike/com.wrike.account/Wrike account realtime
+","wake:com.monotype.android.font.free.fifty6/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:net.zaim.android/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.ashokvarma.cocguidewiki/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.ashokvarma.cocguidewiki/com.dq.rocq.push.RocqGcmIntentService realtime
+","wake:ca.coba.scolarit.lionelgroulx/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.projeto.learnsing/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.weathercreative.weatherbub/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.ebookers/com.expedia.bookings.notification.GCMIntentService realtime
+","wake:codematics.universal.tv.remote.control/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","FinestTunner realtime
+","ACRA wakelock realtime
+","wake:com.instantgaming.android/services.MyFirebaseInstanceIDService realtime
+","wake:com.centris_mobile/com.prospects_libs.firebase.messaging.MyFirebaseInstanceIDService realtime
+","com.ideashower.readitlater realtime
+","wake:com.radio.fmradio/.service.MyFirebaseInstanceIDService realtime
+","poker2 realtime
+","PopCapWakeLock realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.ebates cmp=com.ebates/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.magicjack.connect/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:memorycontroller.games.petrov.memorycontroller/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Android/InputMethod_HTTP realtime
+","MyWakelockTag realtime
+","wake:pl.wyborcza.android.google/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:sumatodev.com.pslvideos/.services.MyFirebaseInstanceIDService realtime
+","wake:com.classdojo.android/.notification.NotificationsListenerService realtime
+","wake:com.classdojo.android/com.instabug.library.gcm.InstabugGcmListenerService realtime
+","wake:com.goldenfrog.vyprvpn.app/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.rubycell.pianisthd/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Electronic Arts realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.ci.generaladaptiveapps cmp=com.ci.generaladaptiveapps/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","com.evernote.android.job.j realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.flayvr.flayvr cmp=com.flayvr.flayvr/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","com.runtastic.android.service.impl.RuntasticService realtime
+","Scale lock realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=ca.save.m cmp=ca.save.m/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.twenty_four_option_app/.gcm.GcmIntentService realtime
+","wake:com.gna.cad/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.promitor.fleek/org.apache.cordova.firebase.FirebasePluginInstanceIDService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.dennis.cyclist cmp=com.dennis.cyclist/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.tinymission.dailybuttworkoutfree/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.despdev.weight_loss_calculator/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","com.ruanmei.ithome_JPush realtime
+","wake:com.tools.screenshot/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","*job*/com.zenprise/com.evernote.android.job.v21.PlatformJobService realtime
+","JobExecutor realtime
+","com.evernote.android.job.JobManager realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.mlive.tigers.android cmp=com.mlive.tigers.android/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.truecaller/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.kreactive.digischool.bac cmp=com.kreactive.digischool.bac/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:career.money.horoscope/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.fairfax.domain/.service.GeofenceService realtime
+","*sync*/com.fairfax.domain.provider/com.fairfax.domain.syncadapter/Sync realtime
+","wake:com.fusionprojects.edmodo/com.edmodo.notifications.FirebaseRegistrationService realtime
+","WXWakeLock realtime
+","wake:com.alibaba.intl.android.apps.poseidon/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.lo.generaladaptiveapps cmp=com.lo.generaladaptiveapps/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.meamobile.printicular cmp=com.meamobile.printicular/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.atistudios.italk.us cmp=com.atistudios.italk.us/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.dubs.gamingmaster cmp=com.dubs.gamingmaster/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","*job*/com.time2.clean/com.jiubang.commerce.daemon.JobSchedulerService realtime
+","wake:com.frameless.android/.aws.MyFirebaseInstanceIDService realtime
+","MobileDialer realtime
+","wake:com.ebisusoft.shiftworkcal.playstore/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.aadhk.woinvoice cmp=com.aadhk.woinvoice/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","global realtime
+","wake:thecoderx.mnf.islamicstoriesvoice/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=chat.lesbiandating cmp=chat.lesbiandating/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","Power Tag realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.allproperty.android.consumer.sg cmp=com.allproperty.android.consumer.sg/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.fi.generaladaptiveapps cmp=com.fi.generaladaptiveapps/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.tv5.afrique/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.globalegrow.app.gearbest/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:tv.mixch.android/tv.mixch.service.InstanceIdService realtime
+","Lookout realtime
+","wake:com.pizzapizza.production/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.synergetechsolutions.nearbylive/.NearbyIdListenerService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.carfax.mycarfax cmp=com.carfax.mycarfax/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.raken/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.gears42.surelock/.fcm.FcmInstanceService realtime
+","wake:com.streann.connecton/com.streann.streannott.fcm.StreannFirebaseInstanceIDService realtime
+","ZmSamplingInProgress realtime
+","wake:uk.co.avoir.accord/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.AngleApp.HappyValentinesWishes/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.naver.linewebtoon/com.navercorp.npush.fcm.FcmInstanceIDService realtime
+","wake:com.piksoft.turboscan.free/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.glow.android/.notification.GlowInstanceIDListenerService realtime
+","wake:com.playstudios.mykonami/com.leanplum.LeanplumPushInstanceIDService realtime
+","wake:com.eyefi.android.mobi/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Fooview Wake Lock realtime
+","WakeLockPhone1 realtime
+","wake:com.teknolojipiri.ayetbul/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:tv.picpac/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.notdoppler.crashofcars/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.cheaptickets cmp=com.cheaptickets/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","LionHeartManagerLock realtime
+","wake:com.studioeleven.windguru/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.unearby.sayhi/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.glow.android.nurture cmp=com.glow.android.nurture/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:hu.pocketguide/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.dotc.ime.latin.flash/mobi.andrutil.cm.MnMsgInstIdService realtime
+","*job*/com.dotc.ime.latin.flash/com.nutwin.nutchest.nutrefer.keepservice.JobSchedulerService1 realtime
+","wake:com.xime.latin.lite/mobi.andrutil.cm.MnMsgInstIdService realtime
+","*job*/com.xime.latin.lite/com.nutwin.nutchest.nutrefer.keepservice.JobSchedulerService1 realtime
+","Block Rampage realtime
+","WAKELOCK_COM_SAAVN_ANDROID realtime
+","WifiWakeLock realtime
+","PenetrateDictionariesLock realtime
+","*job*/com.yundong.plugin/com.xiaomi.push.service.XMJobService realtime
+","wake:com.seantech.nineke/com.joyours.push.fcm.FcmPushIDService realtime
+","Cocos2dxApp realtime
+","9201923480239482327 realtime
+","9201923480239482334 realtime
+","9201923480239482333/LOC:1 realtime
+","9201923480239482333:1 realtime
+","START_SERVICE realtime
+","08d8a03 realtime
+","AndEngine realtime
+","domino realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.atistudios.italk.brazilian cmp=com.atistudios.italk.brazilian/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:br.com.gerenciadorfinanceiro.controller/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:software.simplicial.nebulous/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","*sync*/com.google.android.apps.paidtasks/com.google/cic.googl.02@gmail.com realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.hp.pregnancy.lite cmp=com.hp.pregnancy.lite/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","WakeLockManager realtime
+","wake:com.jbbmobile.jbbfieldcloud/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","CalendarUpdatesWakelock realtime
+","EASUserCommandServiceWakeLock realtime
+","wake:com.hongoapps.imgkawaii/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=in.playsimple.word_up cmp=in.playsimple.word_up/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.newchic.client/.service.CustomFirebaseInstanceIDService realtime
+","*sync*/com.google.android.maps.mytracks/com.google/cic.googl.02@gmail.com realtime
+","com.mobiquitynetworks.services.SetupIntentService realtime
+","wake:thecouponsapp.coupon/.service.firebase.InstanceIDService realtime
+","com.locationspierexampleproject.service.CacheUpdateService realtime
+","com.mobiquitynetworks.services.EventUploadService realtime
+","wake:com.rto.vehicleregistration/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.paypal.android.p2pmobile/.pushnotification.service.GcmPushNotificationListenerService realtime
+","wake:droom.sleepIfUCan/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.weejim.app.lynx/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","ru.mail.cloud.fileUploadManagerQueue realtime
+","ru.mail.cloud.cameraUploadSyncQueue realtime
+","CloudIntentService realtime
+","wake:com.mobileanarchy.dividendsdashboard/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=pl.virginmobile cmp=pl.virginmobile/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.dublinbus.wearei3/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","*job*/com.popularapp.periodcalendar/.service.CheckJobService realtime
+","AcronScheduler realtime
+","com.signal360.sdk.core.SignalService realtime
+","Badoo Wakelock: no push realtime
+","wake:com.twansoftware.invoicemakerpro/.gcm.MyInstanceIDListenerService realtime
+","wake:com.ui.webdma/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","*job*/com.trendmicro.tmmspersonal/com.trendmicro.tmmssuite.consumer.JobScheduleService realtime
+","wake:com.productsavvy.wolfpack/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:org.ligi.survivalmanual/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.appgenix.bizcal/.reminder.ongoingnotification.OngoingNotificationService realtime
+","wake:com.joelapenna.foursquared/com.foursquare.radar.services.RadarLocationClientFireService realtime
+","wake:com.joelapenna.foursquared/com.foursquare.radar.services.RadarBootService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.joshbegley.dronestream cmp=com.joshbegley.dronestream/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:easydating.com.eddate/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.knowledgespot.BaseBP cmp=com.knowledgespot.BaseBP/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","*sync*/com.aitype.android.thememarket.f/com.aitype.android/ai.type Keyboard Free realtime
+","*sync*/com.knappily.media.knapps/knappily.com/Knappiy realtime
+","wake:com.knappily.media/.gcm.MyInstanceIDListenerService realtime
+","wake:com.Deepweb.sonsuzbilgi/com.mobiroller.services.GCMIntentService realtime
+","wake:com.coolmobilesolution.fastscannerfree/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.ba.generaladaptiveapps cmp=com.ba.generaladaptiveapps/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.logdog.websecurity/com.logdog.notifications.pushnotifications.PushNotificationGcmListener realtime
+","*job*/com.pic.photoeditor/com.daemon.keepalive.JobSchedulerService realtime
+","wake:com.mobilexsoft.ezanvakti/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.contorra.golfpad/.push.MessagingIdService realtime
+","wake:com.excelatlife.cbtdiary/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.july.ndtv/com.ndtv.core.gcm.MyGcmListenerService realtime
+","wake:com.weheartit/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:br.com.mobicare.oiwifi/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.avast.android.batterysaver/com.evernote.android.job.v14.PlatformAlarmService realtime
+","*job*/com.avast.android.batterysaver/com.evernote.android.job.v21.PlatformJobService realtime
+","wake:com.gregacucnik.fishingpoints/.firebase.FP_FirebaseInstanceIdService realtime
+","AMP realtime
+","saver realtime
+","WidgetUpdaterService realtime
+","MediaScanner realtime
+","wake:com.avira.android/.antivirus.services.AVOnAccessScanService realtime
+","wake:com.avira.android/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.avira.android/.antivirus.services.AVScanService realtime
+","engagement realtime
+","wake:lifeisbetteron.com/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:sands.mapCoordinates.android/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.ultimateguitar.tabprofree/com.ultimateguitar.service.gcm.GCMInstanceIDListnerService realtime
+","wake:com.powernapps.acallfromsanta/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:hu.pocketguide.bundle.London_lite/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.avast.android.mobilesecurity/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","*job*/com.avast.android.mobilesecurity/com.evernote.android.job.v21.PlatformJobService realtime
+","wake:com.avast.android.mobilesecurity/com.evernote.android.job.v14.PlatformAlarmService realtime
+","wake:com.acmeaom.android.myradar/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.monotype.android.font.free.fifty.written/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.dosn.clean.boost/.firebase.MyIDService realtime
+","wake:com.mirraw.android/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.weirdlysocial.inviewer/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.innovate.JapanSocial/com.mingle.twine.fcm.TwInstanceIDListenerService realtime
+","name.bagi.levente.pedometer.StepService realtime
+","wake:com.paragon.tcplugins_ntfs_ro/.firebase.InstanceIDService realtime
+","wake:com.paragon.tcplugins_ntfs_ro/.news.NewsIntentService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.voopter cmp=com.voopter/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.dogame.generaladaptiveapps cmp=com.dogame.generaladaptiveapps/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","ClassDojoPushWakeLock realtime
+","wake:com.classdojo.android/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.ti.generaladaptiveapps cmp=com.ti.generaladaptiveapps/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.moovechat/.push.FcmInstanceIdService realtime
+","wake:com.lketech.maps.area.calculator/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.ttxapps.onesyncv2/com.ttxapps.firebase.FirebaseIdService realtime
+","wake:com.touchplow.mobile/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","*sync*/com.google.android.apps.blogger.provider.blogprovider/com.google/cic.googl.02@gmail.com realtime
+","wake:org.mickyappz.animalsounds/.MyFirebaseInstanceIDService realtime
+","wake:com.tinymission.dailyabworkoutfree1/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.alltrails.alltrails/.sync.service.TrailPhotosSyncIntentService realtime
+","wake:com.alltrails.alltrails/.task.service.ApiClientTaskIntentService realtime
+","wake:com.alltrails.alltrails/.sync.service.MapPhotosSyncIntentService realtime
+","wake:com.pvella.mahjong/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","C2DM_WAKELOCK_KEY realtime
+","wake:sinet.startup.inDriver/.services.InDriverGcmListenerService realtime
+","wake:com.groupme.android/.push.GcmRegistrationIntentService realtime
+","wake:com.location.test/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.vapeldoorn.artemislite/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","AlipayPush_k realtime
+","wake:com.lenskart.app/com.quantumgraph.sdk.QGGcmListenerService realtime
+","libgdx wakelock realtime
+","wake:com.mingle.dateinasia/com.mingle.twine.fcm.TwInstanceIDListenerService realtime
+","wake:com.flipps.fitetv/.service.FirebaseInstanceIDService realtime
+","wake:com.pelmorex.WeatherEyeAndroid/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","PP WakeLock realtime
+","CUT realtime
+","wake:com.historytoday/com.kaldorgroup.pugpig.net.pushnotification.KGFirebaseInstanceIDService realtime
+","wake:com.apptoide.free/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","send_mail_service_wake_lock_tag realtime
+","wake:com.my.mail/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","JOBS realtime
+","wake:com.doapps.android.realestate.RE_970d151f2c28f3c49a8c68a45bc90954/com.doapps.android.services.FirebaseTokenService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.ki.generaladaptiveapps cmp=com.ki.generaladaptiveapps/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:de.waldau_webdesign.app.luxmeter/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.aandrill.president/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.hmobile.biblekjv/.MyFirebaseInstanceIDService realtime
+","wake:com.anydo/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:air.nn.mobile.app.main/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.psafe.msuite/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.codingg.reader/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.outfall.correios/core.service.Service realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.au.generaladaptiveapps cmp=com.au.generaladaptiveapps/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","com.contapps.android.dailyTask.WakefulIntentService realtime
+","com.MySmartPrice.MySmartPrice.services.PingService.Static realtime
+","com.MySmartPrice.MySmartPrice.services.PingService.Local realtime
+","app_session_tag realtime
+","wake:com.etoolkit.lovecollage/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","StartingDealNotificationThread realtime
+","wake:mbinc12.mb32b/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:jp.co.johospace.jorte/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.magzter.beautifulbizarre/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","EPT realtime
+","wake:jp.co.sony.tablet.PersonalSpace/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","*job*/mobi.infolife.ezweather/mobi.infolife.active.KeepLiveService realtime
+","Skrill - Utils . Progress Dialog realtime
+","wake:codeadore.textgram/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","com.eddysoft.comicviewer.ComicViewActivity realtime
+","com.cic.cicnews_WAKE_LOCK_TAG realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.ru.generaladaptiveapps cmp=com.ru.generaladaptiveapps/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.mapswithme.maps.pro/com.pushwoosh.inapp.InAppRetrieverService realtime
+","wake:com.sevencsolutions.myfinances/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","*sync*/com.nianticproject.ingress.content.NemesisProvider/com.google/cic.googl.02@gmail.com realtime
+","wake:com.autodesk.autocadws/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.microphone.earspy/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:de.eisfeldj.augendiagnose/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","tana! realtime
+","wake:com.goomeoevents.sephoramontreal/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.practecol.guardzilla2/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.medisafe.android.client/com.medisafe.android.base.service.MedisafeAlarmManagerService realtime
+","SchedulingService PARTIAL_WAKE_LOCK realtime
+","AlarmService PARTIAL_WAKE_LOCK realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=be.basecompany.base.mybase cmp=be.basecompany.base.mybase/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.circle.android/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.journey.app/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","com.joel.osteen.daily.joel_WAKE_LOCK_TAG realtime
+","wake:com.playstation.mobilemessenger/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.shawmedia.smglobal/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","*sync*/com.bunemekyakilika.weather.pro/sunshine.example.com.pro/Forecast realtime
+","wake:com.bunemekyakilika.android.weather.pro/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.fox.droid.foxksaz cmp=com.fox.droid.foxksaz/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.norwoodsystems.worldphone/com.norwoodsystems.messaging.WorldPhoneFirebaseInstanceIDService realtime
+","*job*/mobi.supo.optimizer/mobi.supo.battery.service.MyJobService realtime
+","wake:mobi.supo.optimizer/mobi.andrutil.cm.MnMsgInstIdService realtime
+","38b47f realtime
+","932e29 realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.locstrwhsmithsd cmp=com.locstrwhsmithsd/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.dojomadness.lolsumo/.push.PushInstanceIdService realtime
+","wake:com.madapps.madcontactsads/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","*sync*/com.google.android.apps.vega.content.VegaContentProvider/com.google/cic.googl.02@gmail.com realtime
+","wake:com.fullfreemovies/com.polaris.moviesonline.firebase.MyFirebaseInstanceIDService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=co.dilmile.dilmile cmp=co.dilmile.dilmile/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.northghost.touchvpn/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","*sync*/com.reddit.frontpage.provider.appdata/com.reddit.account/Reddit for Android realtime
+","LockscreenSettings realtime
+","*sync*/com.android.contacts/com.imo.android.imoim/imo realtime
+","*sync*/com.imo.android.imoim.syncadapter.stubprovider/com.imo.android.imoim/imo realtime
+","wake:you.in.spark.energy/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.sports.scores.baseball.schedule.toronto.blue_jays/com.sports.schedules.library.notification.SportsInstanceIDService realtime
+","wake:fm.castbox.radio.music/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.chicisimo/.common.push.services.RegistrationUpdaterService realtime
+","wake:com.vacuapps.photowindow/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.kumapaw.minimalistanime/.firebase.MyFirebaseInstanceIdService realtime
+","wake:com.zodiactouch/.services.GcmIntentService realtime
+","wake:com.zodiactouch/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.aequus.electronic_engineering/.MyGcmListenerService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=se.yo.android.bloglovin cmp=se.yo.android.bloglovin/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.newscientist.mobile/com.exacttarget.etpushsdk.ETPushService realtime
+","wake:com.thirdmobile.modelcanvas/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:i2tech.valentinedayquotes/fcm.FireBaseInstanceIDService realtime
+","wake:com.sharpsol.digitalvalley.pedometer.free/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.bitsmedia.android.muslimpro/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.amdroidalarmclock.amdroid/.fcm.FCMInstanceIDService realtime
+","wake:com.dailybracketapp.android/io.rong.push.PushService realtime
+","SyncService realtime
+","wake:ca.schmidek.catalogue/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","MQTT realtime
+","wake:ca.weddingwire.launcher/net.bodas.launcher.utils.MyGcmListenerService realtime
+","wake:com.microsoft.launcher/ms.loop.lib.listeners.PhoneListener$OutgoingCallService realtime
+","wake:com.microsoft.launcher/ms.loop.lib.listeners.ApplicationListener$ApplicationListenerService realtime
+","wake:com.alwayspositive.gen/.MyGcmListenerService realtime
+","wake:com.mobeam.beepngo/.sync.FavoritesSyncService realtime
+","wake:com.mobeam.beepngo/.sync.OfferVotingSyncService realtime
+","wake:com.mobeam.beepngo/.http.sync.MobeamSyncService realtime
+","wake:com.mobeam.beepngo/.sync.OfflineOfferClippingSyncService realtime
+","com.surpax.ledflashlight.FlashlightActivity realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.banggood.client cmp=com.banggood.client/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.thinkyeah.galleryvault cmp=com.thinkyeah.galleryvault/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.appsbeyond.countdownplus.lite cmp=com.appsbeyond.countdownplus.lite/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","MyTrails:  realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.endless.glutenfreerecipes cmp=com.endless.glutenfreerecipes/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:de.nextsol.deeparteffects.app/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","CONTROLFILE_WAKELOCK realtime
+","wake:com.puissantapps.bugsmasher.free/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.overseasolutions.waterapp.app/.SchedulingService realtime
+","wake:com.liveauctioneers.and/.gcm.GcmUpdateIntentService realtime
+","wake:ru.mail/.util.gcm.GcmInstanceIDListenerService_ realtime
+","wake:com.sillens.shapeupclub/.notifications.LifesumInstanceIDListenerService realtime
+","wake:com.curiosity.curiositystream/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:net.dotpicko.dotpict/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.viber.sendmessage.makefreecalls/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.contextlogic.home/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.endless.porkrecipes cmp=com.endless.porkrecipes/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.mobixon.istudent cmp=com.mobixon.istudent/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.joelapenna.foursquared/com.foursquare.pilgrim.service.PilgrimLocationClientFireService realtime
+","wake:com.joelapenna.foursquared/com.foursquare.pilgrim.service.PilgrimBootService realtime
+","com.fgteev.fans.app_WAKE_LOCK_TAG realtime
+","wake:org.iggymedia.periodtracker/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.pinkapp/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:cz.destil.settleup/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","WiFi-Doc realtime
+","wake:com.andcreate.app.trafficmonitor/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.rebelvox.voxer/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.mapswithme.maps.pro cmp=com.mapswithme.maps.pro/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:bubbleshooter.orig/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.maisonneuve.radio cmp=com.maisonneuve.radio/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.appspot.scruffapp/.models.datamanager.ScruffFirebaseInstanceIdService realtime
+","wake:com.apposter.watchmaker/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.hungdh.ncsmusic/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.cekirdekbilgisayar.whatsprofile/.push.MyInstanceIDListenerService realtime
+","LedTorch.WakeLock.Partial realtime
+","LedTorch.WakeLock.Full realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.bianor.amspremium cmp=com.bianor.amspremium/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:co.getcontrol/io.intercom.android.sdk.gcm.GcmIntentService realtime
+","uk.co.etouchsolutions.claimapp.service.cache.WakeFullService.WAKE_LOCK realtime
+","com.cfinc.cunpic.intentservice.local.wakelock realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.linecentury.stockmobi cmp=com.linecentury.stockmobi/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:web.internet.fastbrowser/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.cf.flightsearch/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:org.telegram.messenger/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.allproperty.android.consumer.my cmp=com.allproperty.android.consumer.my/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","analytics realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.mojo.theapp cmp=com.mojo.theapp/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.glassesoff.android cmp=com.glassesoff.android/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","com.whatsmode_JPush realtime
+","wake:mappstreet.nearbymapp/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.atistudios.italk.ar cmp=com.atistudios.italk.ar/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:co.bitx.android.wallet/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.nordvpn.android/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:org.ovh.SpaceSTG3/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.overdrive.mobile.android.mediaconsole/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.spika.funki.app/.gcm.MyInstanceIDListenerService realtime
+","wake:com.mobirix.minesweeper/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=mnn.Android cmp=mnn.Android/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.everimaging.photoeffectstudio/com.everimaging.fotor.push.gcm.GCMRefreshListener realtime
+","wake:com.peopleinput.app.archivesdafriques/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.dolphin.browser.express.web cmp=com.dolphin.browser.express.web/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.avast.android.batterysaver/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.dawanda.shopping/.app.push.fcm.MyInstanceIDListenerService realtime
+","wake:co.dojoapp.dojo/.pushes.InstanceIdService realtime
+","wake:com.AngleApp.HappyValentineDayWish/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.trovit.android.apps.cars/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.squaremed.diabetesconnect.android/.services.IDListenerService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.weebly.android cmp=com.weebly.android/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","Timely realtime
+","*sync*/ch.bitspin.timely.referral/com.google/cic.googl.01@gmail.com realtime
+","*sync*/ch.bitspin.timely.sync/com.google/cic.googl.01@gmail.com realtime
+","*sync*/ch.bitspin.timely.analytics/com.google/cic.googl.01@gmail.com realtime
+","wake:com.sanfordguide.hiv/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.happy2.bbmanga cmp=com.happy2.bbmanga/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.atistudios.italk.el cmp=com.atistudios.italk.el/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.popularapp.sevenmins/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.ikdong.weight/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.lightinthebox.android/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.enrasoft.memecial.android cmp=com.enrasoft.memecial.android/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.universetoday.moon.free/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:ru.crazybit.experiment/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","haibison.android.simpleprovider.services.a realtime
+","haibison.android.wake_lock_service.c realtime
+","com.evernote.android.job.h realtime
+","wake:org.ovh.EmpireSTG/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=org.rtribe.rtribe cmp=org.rtribe.rtribe/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:org.rtribe.rtribe/com.layer.sdk.services.LayerFcmInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=id.salestock.mobile cmp=id.salestock.mobile/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:horoscope.astrology.zodiac.daily.free/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:basic.guru.gforms/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.alexandrucene.dayhistory/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.audiobooks.androidapp/.GCMInstanceIDService realtime
+","wake:com.audiobooks.androidapp/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.th.generaladaptiveapps cmp=com.th.generaladaptiveapps/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.quizlet.quizletandroid/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.glykka.easysign/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","com.live.sport1_WAKE_LOCK_TAG realtime
+","wake:com.ndtv.india/com.ndtv.core.gcm.MyGcmListenerService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=us.can0p.shootdinosaureggs cmp=us.can0p.shootdinosaureggs/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","*sync*/com.liquidum.gamebooster.syncadapter.provider/com.liquidum.gamebooster.syncadapter/Gamebooster realtime
+","notification realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=org.rethinkgroup.parentcuepaid cmp=org.rethinkgroup.parentcuepaid/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.apalon.optimizer/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.yeecall.app/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.auxwave.morph/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.airmiles.loadandgo/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.myboyfriendisageek.videocatcher.demo cmp=com.myboyfriendisageek.videocatcher.demo/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.tinymission.dailylegworkoutfree/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:hqt.apps.poke/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.djit.equalizerplusforandroidfree cmp=com.djit.equalizerplusforandroidfree/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","*job*/com.alibaba.aliexpresshd/com.evernote.android.job.v21.PlatformJobService realtime
+","wake:com.economist.darwin/.service.DarwinFirebaseInstanceIdService realtime
+","wake:free.programming.programming/.MyFirebaseInstanceIDService realtime
+","Intent { act=com.google.android.c2dm.intent.REGISTRATION flg=0x10 pkg=com.mobilemotion.dubsmash cmp=com.mobilemotion.dubsmash/com.parse.GcmBroadcastReceiver (has extras) } realtime
+","wake:com.thisclicks.wiw/.fcm.InstanceIdListenerService realtime
+","wake:com.imagedrome.jihachul/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:com.venusvsmars.teenfashion/com.google.firebase.iid.FirebaseInstanceIdService realtime
+","wake:fm.guillaume.pleymojis/com.feeligo.stickerpicker.service.MyFirebaseInstanceIdService realtime
+","wake:com.picsart.studio/com.google.android.fcm.PAFirebaseInstanceIDService realtime
+","wake:com.fiverr.fiverr/.push_handler.FCMIdService realtime
+","*job*/com.google.mess/com.google.android.cloud.messaging.ImageService realtime
+","OnlineService realtime
+","com.running realtime
+"

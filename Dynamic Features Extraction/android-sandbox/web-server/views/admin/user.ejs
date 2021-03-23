@@ -1,0 +1,28 @@
+<%- include ../header.ejs %>
+<main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+	<div class="pt-4">
+		<% if(foundUser){ %>
+			<p><%= foundUser.username %> <%- gPermBadge(foundUser.tags.includes("administrator"), false) %> <%- gBannedBadge(foundUser.tags.includes("banned"), false) %></p>
+			<p><%= foundUser.email %></p>
+			<p><code>UID: <%= foundUser._id %></code></p>
+			<div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+				<% if(!foundUser.tags.includes("administrator")){ %>
+					<a href="/admin/promoteuser/<%= foundUser._id %>" class="btn btn-primary"><i class="fas fa-user-shield"></i> Promote to Admin</a>
+				<% }else{ %>
+					<a href="/admin/demoteuser/<%= foundUser._id %>" class="btn btn-secondary"><i class="fas fa-user"></i> Demote</a>
+				<% } %>
+				<% if(!foundUser.tags.includes("banned")){ %>
+					<a href="/admin/banuser/<%= foundUser._id %>" class="btn btn-danger"><i class="fas fa-gavel"></i> Ban</a>
+				<% }else{ %>
+					<a href="/admin/unbanuser/<%= foundUser._id %>" class="btn btn-danger"><i class="fas fa-gavel"></i> Unban</a>
+				<% } %>
+				<!--<a href="/admin/deleteuser/<%= foundUser._id %>" class="btn btn-danger"><i class="fas fa-minus-circle"></i> Delete user</a>-->
+			</div>
+		<% }else{ %>
+			<h2>
+				<span class="badge analysis-badge badge-danger">Unknown user <i class="fas fa-exclamation-triangle"></i></span>
+			</h2>
+		<% } %>
+	</div>
+</main>
+<%- include ../footer.ejs %>

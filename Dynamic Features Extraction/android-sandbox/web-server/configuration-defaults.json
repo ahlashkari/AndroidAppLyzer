@@ -1,0 +1,23 @@
+{
+	"serverPort": 80,
+	"serverHost": "localhost",
+	"serverUseTLS": false,
+	"serverTLSCertName": "cert.pem",
+	"serverTLSKeyName": "key.pem",
+	"dbHost": "example.com",
+	"dbPort": 61337,
+	"dbAuthenticate": true,
+	"dbUser": "johndoe",
+	"dbPassword": "hunter2",
+	"dbReplicaSet": "notneededunlessusingnewdriver",
+	"dbName": "exampledatabase",
+	"dbNewDriver": false,
+	"pathTemporary": "/tmp",
+	"sessionSecret": "longsecuresecret",
+	"registrationDisabled": false,
+	"registrationDisabledNote": "Sorry, registration is currently disabled!",
+	"tableLengthPerPage": 20,
+	"initialUser": "root",
+	"initialUserEmail": "root@localhost.localdomain",
+	"initialPassword": "toorL337!"
+}
