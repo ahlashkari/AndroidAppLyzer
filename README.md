@@ -1,6 +1,6 @@
 ## Static and Dynamic Android App Analyzer and Classifier
 
-This research focuses on classifying android samples using static and dynamic analysis. The first version of this package covers the data collection and static feature extraction. The second version will focus on developing a classification model using AI for static features. The third version will add the dynamic analysis module and related features to improve the classifier.
+This research focuses on classifying android samples using static and dynamic analysis. The first version of this package covers the data collection and static feature extraction. The second version focuses on developing a classification model using AI for static features. The third version has the dynamic analysis module and related features to improve the classifier.
  
 This project has been supported by Mitacs Globalink Program (providing a research internship from Tunisia) and Harrison McCain Foundation Young Scholar Awards (providing enough fund for a 4-months coop student). The 200K Android malware samples provided by the Communication Security Establishment (CSE) and the Canadian Center for Cyber Security (CCCS). 
 
