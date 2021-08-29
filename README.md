@@ -39,7 +39,7 @@ $ for i in <Output_Folder>/*/*.txt; do python Create_Vector.py $i <Output_Folder
 
 Download the package at: https://github.com/ahlashkari/AndroidApplyzer.
 
-For installing dependency for analysis server and configuring please refer to [set up guide](Dynamic Features Extraction/android-sandbox/docs/Analysis-server-set-up.md).
+For installing dependency for analysis server and configuring please refer to [set up guide](Dynamic%20Features%20Extraction/android-sandbox/docs/Analysis-server-set-up.md).
 
 ### Running the analysis server
 
