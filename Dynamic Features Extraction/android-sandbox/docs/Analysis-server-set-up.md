@@ -23,9 +23,22 @@ It is also possible to use the headless SDK Tools instead. Note that package `pl
 The Android-Sandbox analysis server environment requires [Apktool](https://ibotpeaches.github.io/Apktool/) for decompiling APK metadata.
 
 ### Install DroidBot
-A patched version of DroidBot with commit `9e3ef71 - Retry clearing logs 3 times` is required for stable operation, which should come with the `android-sandbox-extra` package.
 
-A bug in the current release (3.3.5 as of November 7, 2019) of androguard may cause some APKs to not work with DroidBot. ([#662](https://github.com/androguard/androguard/issues/662)) Therefore it's strongly advised to install the master branch of androguard via `pip install -U git+https://github.com/androguard/androguard.git`.
+To prepare the DroidBot code for Android-Sandbox, first switch to a clean directory, then execute:
+
+```sh
+git clone https://github.com/honeynet/droidbot.git
+cd droidbot
+
+# The patch was originally based on this commit
+git checkout 6153a31c9478dcf581f2871492e37f0ff4b77146
+git apply --verbose /path/to/AndroidAppLyzer/Dynamic\ Features\ Extraction/android-sandbox/patches/droidbot/00-retry-logcat-c.diff
+
+# Optional
+git commit -am 'Patches for android-sandbox.'
+```
+
+A bug in the current release (3.3.5 as of September 8, 2021) of androguard may cause some APKs to not work with DroidBot. ([#662](https://github.com/androguard/androguard/issues/662)) Therefore it's strongly advised to install the master branch of androguard via `pip install -U git+https://github.com/androguard/androguard.git`.
 
 Install the DroidBot with `pip install /path/to/droidbot/source`
 
@@ -39,11 +52,13 @@ pip install pymongo
 ```
 
 ### Frida scripts for API capturing
-By default Android-Sandbox uses `api_monitor.js` from MobSF for API capturing. Available in `android-sandbox-extra` package. It is also possible to manually download the script from [here](https://github.com/MobSF/Mobile-Security-Framework-MobSF/blob/595c534576297d30d7b37befda185e1966d085e6/DynamicAnalyzer/tools/frida_scripts/default/api_monitor.js) and place it in a directory. Then modify `pathFridaScripts` in `configuration.json` so that it points to that directory. Note that loading multiple frida scripts that are placed under the same directory is possible and they will be **concatenated** together before loaded. All the data that are sent via `send()` call from all frida scripts will be logged to the corresponding `api.log` file.
+By default Android-Sandbox uses `api_monitor.js` from MobSF for API capturing. The specific version used for the paper is available [here](https://github.com/MobSF/Mobile-Security-Framework-MobSF/blob/595c534576297d30d7b37befda185e1966d085e6/DynamicAnalyzer/tools/frida_scripts/default/api_monitor.js). To use it, download and place it in a directory, then modify `pathFridaScripts` in `configuration.json` so that it points to that directory. Note that loading multiple frida scripts that are placed under the same directory is possible and they will be **concatenated** together before loaded. All the data that are sent via `send()` call from all frida scripts will be logged to the corresponding `api.log` file, which can then be processed by the feature extractor.
 
 ### Web server instance
 
-When running the analysis server with `noWeb` option, web server is not required. Otherwise, follow the [set up an Android-Sandbox web server](./Set-up-web-server) guide to set up the web server, on this machine or otherwise.
+**NOTE**: The web server is not used in the paper and it is currently broken. The following is mostly for the sake of completeness and for future developers who are interested in extending Android-Sandbox.
+
+When running the analysis server with `noWeb` option, web server is not required. Otherwise, follow the [set up an Android-Sandbox web server](./Set-up-web-server) guide to set up the web server.
 
 ## Installation
 ```

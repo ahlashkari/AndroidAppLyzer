@@ -1,0 +1,21 @@
+diff --git a/droidbot/adapter/logcat.py b/droidbot/adapter/logcat.py
+index 16e574f..42a23c9 100644
+--- a/droidbot/adapter/logcat.py
++++ b/droidbot/adapter/logcat.py
+@@ -26,7 +26,15 @@ class Logcat(Adapter):
+             self.out_file = "%s/logcat.txt" % device.output_dir
+ 
+     def connect(self):
+-        self.device.adb.run_cmd("logcat -c")
++        retry = 0
++        while retry < 3:
++            try:
++                self.device.adb.run_cmd("logcat -c")
++                break
++            except subprocess.CalledProcessError:
++                self.logger.warning('logcat -c failed. Retrying (attempt %d)', retry+1)
++                retry += 1
++
+         self.process = subprocess.Popen(["adb", "-s", self.device.serial, "logcat", "-v", "threadtime"],
+                                         stdin=subprocess.PIPE,
+                                         stderr=subprocess.PIPE,
