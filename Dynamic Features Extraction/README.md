@@ -10,7 +10,7 @@
 
 Download the package at: https://github.com/ahlashkari/AndroidApplyzer.
 
-For installing dependency for analysis server and configuring please refer to [set up guide](docs/Analysis-server-set-up.md).
+For installing dependency for analysis server and configuring please refer to [set up guide](android-sandbox/docs/Analysis-server-set-up.md).
 
 ## Running the analysis server
 
