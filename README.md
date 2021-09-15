@@ -294,10 +294,12 @@ David Sean Keyes, Beiqi Li, Gurdip Kaur, Arash Habibi Lashkari, Francois Gagnon,
 * Abir Rahali: Researcher and developer of the Static Analyzer, 
 (Supported by Mitacs Globalink Research Internship - https://www.mitacs.ca/en/programs/globalink/globalink-research-internship)
 
-* Beiqi Li: Researcher and developer of the Dynamic Analyzer, 
+* [**Beiqi Li:**](https://github.com/beiqil) Researcher and developer of the Dynamic Analyzer, 
 (Supported by the coop program of the University of New Brunswick (UNB) - https://www.unb.ca/academics/experientialeducation/work-integrated-learning/co-op-internships.html)
 
-* Gurdip Kaur: Researcher (Postdoctorall fellow) 
+* [**David Sean Keyes:**](https://github.com/dkeyes137) Researcher and developer of the Entropy Analyzer based on the Dynamic part od the AndroidAppLyzer.
+
+* [**Gurdip Kaur:**](https://www.linkedin.com/in/gurdip-kaur-738062164/) Researcher (Postdoctorall fellow) 
 
 For testing this package, we used the Androzoo dataset for collecting 200K Benign samples (https://androzoo.uni.lu/) and received 200K malware samples from CSE/CCCS.
 Thanks, Francois Gagnon from CSE/CCCS for all his support and help in this part of the project. 
