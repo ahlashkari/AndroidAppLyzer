@@ -289,7 +289,7 @@ David Sean Keyes, Beiqi Li, Gurdip Kaur, Arash Habibi Lashkari, Francois Gagnon,
 
 
 ## Contributors:
-* [**Arash Habibi Lashkari:**](https://www.cs.unb.ca/~alashkar/) Founder and Project Leader
+* [**Arash Habibi Lashkari:**](http://ahlashkari.com/index.asp) Founder and Project Leader
 
 * Abir Rahali: Researcher and developer of the Static Analyzer, 
 (Supported by Mitacs Globalink Research Internship - https://www.mitacs.ca/en/programs/globalink/globalink-research-internship)
