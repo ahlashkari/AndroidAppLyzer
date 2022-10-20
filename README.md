@@ -43,7 +43,7 @@ For installing dependency for analysis server and configuring please refer to [s
 
 ### Running the analysis server
 
-Execute `npm start` under `android-sandbox/analysis-server`.
+Execute `npm start` under 'Dynamic Features Extraction' directory `android-sandbox/analysis-server`.
 
 ### Usage
 
