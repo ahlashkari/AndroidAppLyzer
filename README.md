@@ -263,7 +263,7 @@ In each folder, there is a ReadMe.md file on how to run the scripts.
 Every script can be used independently.
 
 
-## Copyright (c) 2020 and Citation
+## Copyright (c) 2020 & Citation
  
 To cite AndroidAppLyzer in your work and understand it completely, find the following published papers:
 
@@ -306,7 +306,7 @@ For Dynamic Analysis:
 * [**Gurdip Kaur:**](https://www.linkedin.com/in/gurdip-kaur-738062164/) Researcher (Postdoctoral Fellow) 
 
 
-## Acknowledgement
+## Acknowledgment
 
 This project was supported by the [Mitacs Globalink Research Internship](https://www.mitacs.ca/our-programs/globalink-research-internship-students/) and Harrison McCain Foundation Young Scholar Awards. 
 
