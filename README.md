@@ -1,47 +1,43 @@
-## Static and Dynamic Android App Analyzer and Classifier
+# AndroidAppLyzer
 
-This research focuses on classifying android samples using static and dynamic analysis. The first version of this package covers the data collection and static feature extraction. The second version focuses on developing a classification model using AI for static features. The third version has the dynamic analysis module and related features to improve the classifier.
- 
-This project has been supported by Mitacs Globalink Program (providing a research internship from Tunisia) and Harrison McCain Foundation Young Scholar Awards (providing enough fund for a 4-months coop student). The 200K Android malware samples provided by the Communication Security Establishment (CSE) and the Canadian Center for Cyber Security (CCCS). 
+**Static and Dynamic Android App Analyzer**
 
--------------------------------------------------------------------------------------------------------------------------------------------------------
--------------------------------------------------------------------------------------------------------------------------------------------------------
-## Static Analyzer: 
+This research focuses on classifying Android samples using static and dynamic analysis. The first version of this package covers the data collection and static feature extraction. The second version focuses on developing a classification model using AI for static features. The third version has the dynamic analysis module and related features to improve the classifier.
 
---> Feature Extraction: The static analysis for android malware detection has proven a very quick and effective way to deal with the code. We extract these static features: permissions, Intents (Actions and Categories), Services, The number of activities, meta-data, Icons, Pictures, audios, videos and the size of the app. Then these features are collected to create a binary vector for each app.
-#### Features Extraction is the second step :
-We used apktool to reverse engineer the apks, then with the "grep" http://man7.org/linux/man-pages/man1/grep.1.html 
-command of shell we extracted the static features from AndroidManifest.xml file, finally a binary vectors with these features are creted 
-to each apk.
 
-#### Prerequisites :
-Download apktool https://ibotpeaches.github.io/Apktool/
+## Static Analyzer
 
-#### Commands to run the scripts :
+The static analysis for Android malware detection has proven a very quick and effective way to deal with the code. We extract these static features: permissions, intents (Actions and Categories), services, the number of activities, meta-data, Icons, pictures, audios, videos, and the size of the app. Then these features are collected to create a binary vector for each app.
+
+**Features Extraction is the second step:** we used apktool to reverse engineer the apks, then with the [`grep`](http://man7.org/linux/man-pages/man1/grep.1.html) shell command we extracted the static features from AndroidManifest.xml file. Finally a binary vectors with these features are created for each apk. 
+
+#### Prerequisites
+Download apktool: https://ibotpeaches.github.io/Apktool/
+
+#### Running the scripts
 ```
 $ sudo; for dir in <Input Folder>/*; do Static_Capturing_Code.sh "$(basename "$dir")" <Output Folder> ;done
 $ for i in <Output_Folder>/*/*.txt; do python Create_Unique_Listes.py $i; done
 $ for i in <Output_Folder>/*/*.txt; do python Create_Vector.py $i <Output_Folder_1>/; done 
 ```
 
----------------------------------------------------------------------------------------------------------------------------------------------------------
-## Dynamic Analyzer: 
+## Dynamic Analyzer
 
 ### Android-Sandbox
 
-### Prerequisite
+#### Prerequisite
 
 - Python 3.6+
 - NodeJS 12 LTS
 - MongoDB
 
-### Installation & Configuration
+#### Installation & Configuration
 
 Download the package at: https://github.com/ahlashkari/AndroidApplyzer.
 
 For installing dependency for analysis server and configuring please refer to [set up guide](Dynamic%20Features%20Extraction/android-sandbox/docs/Analysis-server-set-up.md).
 
-### Running the analysis server
+#### Running the analysis server
 
 Execute `npm start` under `android-sandbox/analysis-server`.
 
@@ -53,7 +49,7 @@ Execute `npm start` under `android-sandbox/analysis-server`.
 python android-sandbox/utils/submit-job.py android-sandbox/analysis-server/configuration.json <apk-dir-or-file> <user>
 ```
 
-#### List jobs that matches a specific state or all jobs at once
+#### List jobs that match a specific state or all jobs at once
 
 ```
 python android-sandbox/utils/jobtool.py android-sandbox/analysis-server/configuration.json list [state=<error|pending_approval|queued|running|done>] [verbose]
@@ -236,7 +232,7 @@ Network_TotalTransmittedPackets
 
 #### Battery Usage Estimations
 
-**NOTE**: as the emulator cannot emulate battery, wakelocks and services are used to reflect how the battery usage profile would look like on a real device with a battery.
+**NOTE**: As the emulator cannot emulate battery, wakelocks and services are used to reflect how the battery usage profile would look like on a real device with a battery.
 
 ```
 Battery_wakelock
@@ -261,46 +257,57 @@ Process_total
 ```
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------------------------------------------------------------
 
 In each folder, there is a ReadMe.md file on how to run the scripts. 
 
 Every script can be used independently.
 
-## Copyright (c) 2020 
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (AndroidAppLyzer), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+## Copyright (c) 2020 & Citation
  
-For citation in your works and also understanding AndroidAppLyzer completely, you can find below published papers:
+To cite AndroidAppLyzer in your work and understand it completely, find the following published papers:
 
-For Static Analysis :
-
-Abir Rahali, Arash Habibi Lashkari, Gurdip Kaur, Laya Taheri, Francois Gagnon, and Frédéric Massicotte, "DIDroid: Android Malware Classification and Characterization Using Deep Image Learning", 10th International Conference on Communication and Network Security, Tokyo, Japan, November 2020, https://doi.org/10.1145/3442520.3442521
+For Static Analysis:
+```
+@inproceedings{rahali_2020,
+    author = {Rahali, Abir and Lashkari, Arash Habibi and Kaur, Gurdip and Taheri, Laya and GAGNON, FRANCOIS and Massicotte, Fr{\'e}d{\'e}ric},
+    title = {DIDroid: Android Malware Classification and Characterization Using Deep Image Learning},
+    booktitle = {Proceedings of the 2020 10th International Conference on Communication and Network Security},
+    year = {2021},
+    pages = {70–82},
+    isbn = {9781450389037},
+    doi = {10.1145/3442520.3442522}
+}
+```
 
 For Dynamic Analysis:
+```
+@inproceedings{keyes_2021,
+    author={Keyes, David Sean and Li, Beiqi and Kaur, Gurdip and Lashkari, Arash Habibi and Gagnon, Francois and Massicotte, Frédéric},
+    title={EntropLyzer: Android Malware Classification and Characterization Using Entropy Analysis of Dynamic Characteristics}, 
+    booktitle={2021 Reconciling Data Analytics, Automation, Privacy, and Security: A Big Data Challenge (RDAAPS)}, 
+    year={2021},
+    pages={1-12},
+    isbn = {978-1-7281-6937-8},
+    doi={10.1109/RDAAPS48126.2021.9452002}
+}
+```
 
-David Sean Keyes, Beiqi Li, Gurdip Kaur, Arash Habibi Lashkari, Francois Gagnon, Fr´ed´eric Massicotte, "EntropLyzer: Android Malware Classification and Characterization Using Entropy Analysis of Dynamic Characteristics", Reconciling Data Analytics, Automation, Privacy, and Security: A Big Data Challenge (RDAAPS), IEEE 978-1-7281-6937-8/20, Canada, ON, McMaster University, 2021
+## Team Members
 
-
-
-
-## Contributors:
 * [**Arash Habibi Lashkari:**](http://ahlashkari.com/index.asp) Founder and Project Leader
 
-* Abir Rahali: Researcher and developer of the Static Analyzer, 
-(Supported by Mitacs Globalink Research Internship - https://www.mitacs.ca/en/programs/globalink/globalink-research-internship)
+* [**Abir Rahali**](https://github.com/abirrahali): Researcher and developer of the Static Analyzer (Supported by [Mitacs Globalink Research Internship](https://www.mitacs.ca/our-programs/globalink-research-internship-students/))
 
-* [**Beiqi Li:**](https://github.com/beiqil) Researcher and developer of the Dynamic Analyzer, 
-(Supported by the coop program of the University of New Brunswick (UNB) - https://www.unb.ca/academics/experientialeducation/work-integrated-learning/co-op-internships.html)
+* [**Beiqi Li:**](https://github.com/beiqil) Researcher and developer of the Dynamic Analyzer (Supported by the [co-op program](https://www.unb.ca/academics/experientialeducation/work-integrated-learning/co-op-internships.html) at the University of New Brunswick)
 
-* [**David Sean Keyes:**](https://github.com/dkeyes137) Researcher and developer of the Entropy Analyzer based on the Dynamic part od the AndroidAppLyzer.
+* [**David Sean Keyes:**](https://github.com/dkeyes137) Researcher and developer of the Entropy Analyzer based on the Dynamic part of the AndroidAppLyzer
 
-* [**Gurdip Kaur:**](https://www.linkedin.com/in/gurdip-kaur-738062164/) Researcher (Postdoctorall fellow) 
+* [**Gurdip Kaur:**](https://www.linkedin.com/in/gurdip-kaur-738062164/) Researcher (Postdoctoral Fellow) 
 
-For testing this package, we used the Androzoo dataset for collecting 200K Benign samples (https://androzoo.uni.lu/) and received 200K malware samples from CSE/CCCS.
-Thanks, Francois Gagnon from CSE/CCCS for all his support and help in this part of the project. 
 
+## Acknowledgment
+
+This project was supported by the [Mitacs Globalink Research Internship](https://www.mitacs.ca/our-programs/globalink-research-internship-students/) and Harrison McCain Foundation Young Scholar Awards. 
+
+This package was tested using 200K benign samples from the [Androzoo dataset](https://androzoo.uni.lu/) and 200K Android malware samples from the Communication Security Establishment (CSE) and the Canadian Center for Cyber Security (CCCS). We thank Francois Gagnon from CSE/CCCS for his support.
